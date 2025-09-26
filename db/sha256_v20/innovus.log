@@ -1,0 +1,331 @@
+
+Cadence Innovus(TM) Implementation System.
+Copyright 2024 Cadence Design Systems, Inc. All rights reserved worldwide.
+
+Version:	v23.14-s088_1, built Fri Feb 28 12:25:44 PST 2025
+Options:	
+Date:		Mon Aug 18 22:50:28 2025
+Host:		raindrop (x86_64 w/Linux 5.14.0-570.35.1.el9_6.x86_64) (4cores*8cpus*Intel(R) Core(TM) i7-10510U CPU @ 1.80GHz 8192KB)
+OS:		Red Hat Enterprise Linux 9.6 (Plow)
+
+License:
+		[22:50:31.286569] Configured Lic search path (23.02-s006): /home/kevinlevin/cadence/license.dat
+
+		invs	Innovus Implementation System	23.1	checkout succeeded
+		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+Change the soft stacksize limit to 0.2%RAM (46 mbytes). Set global soft_stack_size_limit to change the value.
+Info: Process UID = 9399 / a0843379-2fec-42de-9b98-3e4b38359ea9 / XQMh6JNsqQ
+
+**INFO:  MMMC transition support version v31-84 
+
+<CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+<CMD> suppressMessage ENCEXT-2799
+<CMD> getVersion
+[INFO] Loading PVS 22.20 fill procedures
+<CMD> win
+<CMD> encMessage warning 0
+Suppress "**WARN ..." messages.
+<CMD> encMessage debug 0
+<CMD> is_common_ui_mode
+<CMD> restoreDesign /home/kevinlevin/Downloads/asap7_reference_design-main/db/sha256_v20/sha256_v20.enc.dat.tar.gz sha256
+#% Begin load design ... (date=08/18 22:51:06, mem=1913.0M)
+Set Default Input Pin Transition as 0.1 ps.
+Loading design 'sha256' saved by 'Innovus' '20.11-s130_1' on 'Wed Oct 19 18:08:41 2022'.
+% Begin Load MMMC data ... (date=08/18 22:51:08, mem=1917.2M)
+% End Load MMMC data ... (date=08/18 22:51:08, total cpu=0:00:00.0, real=0:00:00.0, peak res=1918.7M, current mem=1918.7M)
+rc_typ_25
+
+Loading LEF file /home/kevinlevin/Downloads/asap7_reference_design-main/db/sha256_v20/sha256_v20.enc.dat/libs/lef/asap7_tech_4x_201209.lef ...
+
+Loading LEF file /home/kevinlevin/Downloads/asap7_reference_design-main/db/sha256_v20/sha256_v20.enc.dat/libs/lef/asap7sc7p5t_28_L_4x_220121a.lef ...
+Set DBUPerIGU to M1 pitch 576.
+
+Loading LEF file /home/kevinlevin/Downloads/asap7_reference_design-main/db/sha256_v20/sha256_v20.enc.dat/libs/lef/asap7sc7p5t_28_SL_4x_220121a.lef ...
+
+Loading LEF file /home/kevinlevin/Downloads/asap7_reference_design-main/db/sha256_v20/sha256_v20.enc.dat/libs/lef/asap7sc7p5t_28_R_4x_220121a.lef ...
+
+##  Check design process and node:  
+##  Both design process and tech node are not set.
+
+Loading view definition file from /home/kevinlevin/Downloads/asap7_reference_design-main/db/sha256_v20/sha256_v20.enc.dat/viewDefinition.tcl
+Reading tc timing library '/home/kevinlevin/Downloads/asap7_reference_design-main/db/sha256_v20/sha256_v20.enc.dat/libs/mmmc/asap7sc7p5t_AO_LVT_TT_nldm_211120.lib' ...
+Read 42 cells in library 'asap7sc7p5t_AO_LVT_TT_nldm_211120' 
+Reading tc timing library '/home/kevinlevin/Downloads/asap7_reference_design-main/db/sha256_v20/sha256_v20.enc.dat/libs/mmmc/asap7sc7p5t_INVBUF_LVT_TT_nldm_220122.lib' ...
+Read 37 cells in library 'asap7sc7p5t_INVBUF_LVT_TT_nldm_211120' 
+Reading tc timing library '/home/kevinlevin/Downloads/asap7_reference_design-main/db/sha256_v20/sha256_v20.enc.dat/libs/mmmc/asap7sc7p5t_OA_LVT_TT_nldm_211120.lib' ...
+Read 34 cells in library 'asap7sc7p5t_OA_LVT_TT_nldm_211120' 
+Reading tc timing library '/home/kevinlevin/Downloads/asap7_reference_design-main/db/sha256_v20/sha256_v20.enc.dat/libs/mmmc/asap7sc7p5t_SEQ_LVT_TT_nldm_220123.lib' ...
+Read 33 cells in library 'asap7sc7p5t_SEQ_LVT_TT_nldm_220123' 
+Reading tc timing library '/home/kevinlevin/Downloads/asap7_reference_design-main/db/sha256_v20/sha256_v20.enc.dat/libs/mmmc/asap7sc7p5t_SIMPLE_LVT_TT_nldm_211120.lib' ...
+**WARN: (TECHLIB-1277):	The attribute 'input_signal_level' has been defined for output pin 'CON'. 'input_signal_level' cannot be defined at this level and is being ignored. (File /home/kevinlevin/Downloads/asap7_reference_design-main/db/sha256_v20/sha256_v20.enc.dat/libs/mmmc/asap7sc7p5t_SIMPLE_LVT_TT_nldm_211120.lib, Line 11387)
+**WARN: (TECHLIB-1277):	The attribute 'input_signal_level' has been defined for output pin 'CON'. 'input_signal_level' cannot be defined at this level and is being ignored. (File /home/kevinlevin/Downloads/asap7_reference_design-main/db/sha256_v20/sha256_v20.enc.dat/libs/mmmc/asap7sc7p5t_SIMPLE_LVT_TT_nldm_211120.lib, Line 14287)
+Read 56 cells in library 'asap7sc7p5t_SIMPLE_LVT_TT_nldm_211120' 
+Reading tc timing library '/home/kevinlevin/Downloads/asap7_reference_design-main/db/sha256_v20/sha256_v20.enc.dat/libs/mmmc/asap7sc7p5t_AO_SLVT_TT_nldm_211120.lib' ...
+Read 42 cells in library 'asap7sc7p5t_AO_SLVT_TT_nldm_211120' 
+Reading tc timing library '/home/kevinlevin/Downloads/asap7_reference_design-main/db/sha256_v20/sha256_v20.enc.dat/libs/mmmc/asap7sc7p5t_INVBUF_SLVT_TT_nldm_220122.lib' ...
+Read 37 cells in library 'asap7sc7p5t_INVBUF_SLVT_TT_nldm_211120' 
+Reading tc timing library '/home/kevinlevin/Downloads/asap7_reference_design-main/db/sha256_v20/sha256_v20.enc.dat/libs/mmmc/asap7sc7p5t_OA_SLVT_TT_nldm_211120.lib' ...
+Read 34 cells in library 'asap7sc7p5t_OA_SLVT_TT_nldm_211120' 
+Reading tc timing library '/home/kevinlevin/Downloads/asap7_reference_design-main/db/sha256_v20/sha256_v20.enc.dat/libs/mmmc/asap7sc7p5t_SEQ_SLVT_TT_nldm_220123.lib' ...
+Read 33 cells in library 'asap7sc7p5t_SEQ_SLVT_TT_nldm_220123' 
+Reading tc timing library '/home/kevinlevin/Downloads/asap7_reference_design-main/db/sha256_v20/sha256_v20.enc.dat/libs/mmmc/asap7sc7p5t_SIMPLE_SLVT_TT_nldm_211120.lib' ...
+**WARN: (TECHLIB-1277):	The attribute 'input_signal_level' has been defined for output pin 'CON'. 'input_signal_level' cannot be defined at this level and is being ignored. (File /home/kevinlevin/Downloads/asap7_reference_design-main/db/sha256_v20/sha256_v20.enc.dat/libs/mmmc/asap7sc7p5t_SIMPLE_SLVT_TT_nldm_211120.lib, Line 11387)
+**WARN: (TECHLIB-1277):	The attribute 'input_signal_level' has been defined for output pin 'CON'. 'input_signal_level' cannot be defined at this level and is being ignored. (File /home/kevinlevin/Downloads/asap7_reference_design-main/db/sha256_v20/sha256_v20.enc.dat/libs/mmmc/asap7sc7p5t_SIMPLE_SLVT_TT_nldm_211120.lib, Line 14287)
+Read 56 cells in library 'asap7sc7p5t_SIMPLE_SLVT_TT_nldm_211120' 
+*** End library_loading (cpu=0.10min, real=0.10min, mem=165.0M, fe_cpu=0.84min, fe_real=0.77min, fe_mem=1963.0M) ***
+% Begin Load netlist data ... (date=08/18 22:51:14, mem=1941.7M)
+*** Begin netlist parsing (mem=1963.0M) ***
+Created 404 new cells from 10 timing libraries.
+Reading netlist ...
+Backslashed names will retain backslash and a trailing blank character.
+Reading verilogBinary netlist '/home/kevinlevin/Downloads/asap7_reference_design-main/db/sha256_v20/sha256_v20.enc.dat/sha256.v.bin'
+
+*** Memory Usage v#2 (Current mem = 1963.031M, initial mem = 839.773M) ***
+*** End netlist parsing (cpu=0:00:00.0, real=0:00:00.0, mem=1963.0M) ***
+% End Load netlist data ... (date=08/18 22:51:14, total cpu=0:00:00.1, real=0:00:00.0, peak res=1974.9M, current mem=1974.9M)
+Set top cell to sha256.
+Hooked 404 DB cells to tlib cells.
+Starting recursive module instantiation check.
+No recursion found.
+Building hierarchical netlist for Cell sha256 ...
+***** UseNewTieNetMode *****.
+*** Netlist is unique.
+Set DBUPerIGU to techSite asap7sc7p5t width 864.
+** info: there are 637 modules.
+** info: there are 9589 stdCell insts.
+** info: there are 9589 stdCell insts with at least one signal pin.
+
+*** Memory Usage v#2 (Current mem = 1987.031M, initial mem = 839.773M) ***
+*info: set bottom ioPad orient R0
+Adjusting Core to Left to: 5.3280. Core to Bottom to: 5.3280.
+Start create_tracks
+Loading preference file /home/kevinlevin/Downloads/asap7_reference_design-main/db/sha256_v20/sha256_v20.enc.dat/gui.pref.tcl ...
+**WARN: (IMPSYT-3004):	Option ConstraintUserXGrid is obsolete and will be removed in future release.  Use 'setFPlanMode -user_define_grid' instead. To avoid this warning and to ensure compatibility with  future releases, please remove the obsolete preference from your script.
+**WARN: (IMPSYT-3004):	Option ConstraintUserYGrid is obsolete and will be removed in future release.  Use 'setFPlanMode -user_define_grid' instead. To avoid this warning and to ensure compatibility with  future releases, please remove the obsolete preference from your script.
+**WARN: (IMPSYT-3004):	Option ConstraintUserXOffset is obsolete and will be removed in future release.  Use 'setFPlanMode -user_define_grid' instead. To avoid this warning and to ensure compatibility with  future releases, please remove the obsolete preference from your script.
+**WARN: (IMPSYT-3004):	Option ConstraintUserYOffset is obsolete and will be removed in future release.  Use 'setFPlanMode -user_define_grid' instead. To avoid this warning and to ensure compatibility with  future releases, please remove the obsolete preference from your script.
+**WARN: (IMPSYT-3046):	Unknown preference name "SnapAllCorners".
+**WARN: (IMPSYT-3046):	Unknown preference name "UserGridUnit".
+**WARN: (IMPSYT-3004):	Option EnableRectilinearDesign is obsolete and will be removed in future release.  Use 'setFPlanMode -enableRectilinearDesign' instead. To avoid this warning and to ensure compatibility with  future releases, please remove the obsolete preference from your script.
+**WARN: (IMPSYT-3046):	Unknown preference name "ShowLefLayerName".
+**WARN: (IMPSYT-3046):	Unknown preference name "MoveMacrosWithGuide".
+**WARN: (IMPSYT-3046):	Unknown preference name "MoveMacrosWithRegion".
+**WARN: (IMPSYT-3046):	Unknown preference name "MoveStdCellWithGuide".
+**WARN: (IMPSYT-3046):	Unknown preference name "MoveStdCellWithRegion".
+**WARN: (IMPSYT-3046):	Unknown preference name "MoveStdCellWithFence".
+**WARN: (IMPSYT-3046):	Unknown preference name "MovePreplacedStdCellOnly".
+##  Process: 7             (AutoDetect)             
+##     Node: N7            (User Set)           
+##  Process: 7             (User Set)               
+##     Node: N7            (User Set)           
+Applying the recommended capacitance filtering threshold values for 7nm process node: total_c_th=0, relative_c_th=1 and coupling_c_th=0.1.
+	These values will be used by all post-route extraction engines, including TQuantus, IQuantus and Quantus QRC extraction.
+	Capacitance filtering mode(-capFilterMode option of the setExtractRCMode) is 'relAndCoup' for all engines.
+	The accuracy mode for postRoute effortLevel low extraction will be set to 'high'.
+	Default value for EffortLevel(-effortLevel option of the setExtractRCMode) in postRoute extraction mode will be 'medium' if Quantus QRC technology file is specified else 'low'.
+**WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command setNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+#WARNING (NRIF-90) Option setNanoRouteMode -route_bottom_routing_layer is obsolete. It will continue to work for the current release. To ensure compatibility with future releases, use option setDesignMode -bottomRoutingLayer instead.
+#WARNING (NRIF-91) Option setNanoRouteMode -route_top_routing_layer is obsolete. It will continue to work for the current release. To ensure compatibility with future releases, use option setDesignMode -topRoutingLayer instead.
+AAE_INFO: switching setDelayCal -siAware from false to true ...
+AAE_INFO: The setting is changed from false to true in setDelayCalMode -SIAware
+addRing command will ignore shorts while creating rings.
+addRing command will disallow rings to go over rows.
+addRing command will consider rows while creating rings.
+The ring targets are set to core/block ring wires.
+Change floorplan default-technical-site to 'asap7sc7p5t'.
+*Info: initialize multi-corner CTS.
+Total number of combinational cells: 338
+Total number of sequential cells: 66
+Total number of tristate cells: 0
+Total number of level shifter cells: 0
+Total number of power gating cells: 0
+Total number of isolation cells: 0
+Total number of power switch cells: 0
+Total number of pulse generator cells: 0
+Total number of always on buffers: 0
+Total number of retention cells: 0
+Total number of physical cells: 0
+List of usable buffers: BUFx10_ASAP7_75t_SL BUFx12_ASAP7_75t_SL BUFx12f_ASAP7_75t_SL BUFx16f_ASAP7_75t_SL BUFx24_ASAP7_75t_SL BUFx2_ASAP7_75t_SL BUFx3_ASAP7_75t_SL BUFx4_ASAP7_75t_SL BUFx5_ASAP7_75t_SL BUFx4f_ASAP7_75t_SL BUFx6f_ASAP7_75t_SL BUFx8_ASAP7_75t_SL HB1xp67_ASAP7_75t_SL HB2xp67_ASAP7_75t_SL BUFx10_ASAP7_75t_L BUFx12_ASAP7_75t_L BUFx12f_ASAP7_75t_L BUFx16f_ASAP7_75t_L BUFx24_ASAP7_75t_L BUFx2_ASAP7_75t_L BUFx3_ASAP7_75t_L BUFx4_ASAP7_75t_L BUFx5_ASAP7_75t_L BUFx4f_ASAP7_75t_L BUFx6f_ASAP7_75t_L BUFx8_ASAP7_75t_L HB1xp67_ASAP7_75t_L
+Total number of usable buffers: 27
+List of unusable buffers:
+Total number of unusable buffers: 0
+List of usable inverters: CKINVDCx10_ASAP7_75t_SL CKINVDCx12_ASAP7_75t_SL CKINVDCx11_ASAP7_75t_SL CKINVDCx14_ASAP7_75t_SL CKINVDCx16_ASAP7_75t_SL CKINVDCx20_ASAP7_75t_SL CKINVDCx8_ASAP7_75t_SL CKINVDCx5p33_ASAP7_75t_SL CKINVDCx6p67_ASAP7_75t_SL CKINVDCx9p33_ASAP7_75t_SL INVx11_ASAP7_75t_SL INVx13_ASAP7_75t_SL INVx1_ASAP7_75t_SL INVx2_ASAP7_75t_SL INVx3_ASAP7_75t_SL INVx4_ASAP7_75t_SL INVx5_ASAP7_75t_SL INVx6_ASAP7_75t_SL INVx8_ASAP7_75t_SL INVxp67_ASAP7_75t_SL INVxp33_ASAP7_75t_SL CKINVDCx10_ASAP7_75t_L CKINVDCx12_ASAP7_75t_L CKINVDCx11_ASAP7_75t_L CKINVDCx14_ASAP7_75t_L CKINVDCx16_ASAP7_75t_L CKINVDCx20_ASAP7_75t_L CKINVDCx8_ASAP7_75t_L CKINVDCx5p33_ASAP7_75t_L CKINVDCx6p67_ASAP7_75t_L CKINVDCx9p33_ASAP7_75t_L INVx11_ASAP7_75t_L INVx13_ASAP7_75t_L INVx1_ASAP7_75t_L INVx2_ASAP7_75t_L INVx3_ASAP7_75t_L INVx4_ASAP7_75t_L INVx5_ASAP7_75t_L INVx6_ASAP7_75t_L INVx8_ASAP7_75t_L INVxp67_ASAP7_75t_L INVxp33_ASAP7_75t_L
+Total number of usable inverters: 42
+List of unusable inverters:
+Total number of unusable inverters: 0
+List of identified usable delay cells: HB3xp67_ASAP7_75t_SL HB4xp67_ASAP7_75t_SL HB2xp67_ASAP7_75t_L HB3xp67_ASAP7_75t_L HB4xp67_ASAP7_75t_L
+Total number of identified usable delay cells: 5
+List of identified unusable delay cells:
+Total number of identified unusable delay cells: 0
+% Begin Load MMMC data post ... (date=08/18 22:51:15, mem=2311.0M)
+% End Load MMMC data post ... (date=08/18 22:51:15, total cpu=0:00:00.0, real=0:00:00.0, peak res=2311.0M, current mem=2311.0M)
+Reading floorplan file - /home/kevinlevin/Downloads/asap7_reference_design-main/db/sha256_v20/sha256_v20.enc.dat/sha256.fp.gz (mem = 2217.7M).
+% Begin Load floorplan data ... (date=08/18 22:51:15, mem=2311.6M)
+*info: reset 9720 existing net BottomPreferredLayer and AvoidDetour
+Deleting old partition specification.
+Set FPlanBox to (0 0 689760 689760)
+ ... processed partition successfully.
+Reading binary special route file /home/kevinlevin/Downloads/asap7_reference_design-main/db/sha256_v20/sha256_v20.enc.dat/sha256.fp.spr.gz (Created by Innovus v20.11-s130_1 on Wed Oct 19 18:08:37 2022, version: 1)
+Convert 0 swires and 0 svias from compressed groups
+54 swires and 143 svias were compressed
+54 swires and 143 svias were decompressed from small or sparse groups
+Ending "Read special route file" (total cpu=0:00:00.0, real=0:00:00.0, peak res=2313.2M, current mem=2313.2M)
+There are 28 nets with weight being set
+There are 44 nets with bottomPreferredRoutingLayer being set
+There are 28 nets with avoidDetour being set
+Extracting standard cell pins and blockage ...... 
+**WARN: (IMPTR-2108):	For layer M10, the gaps of 13 out of 13 tracks are narrower than 16.000um (space 8.000 + width 8.000).
+Type 'man IMPTR-2108' for more detail.
+ As a result, your trialRoute congestion could be incorrect.
+Pin and blockage extraction finished
+% End Load floorplan data ... (date=08/18 22:51:15, total cpu=0:00:00.1, real=0:00:00.0, peak res=2315.1M, current mem=2315.1M)
+Reading congestion map file /home/kevinlevin/Downloads/asap7_reference_design-main/db/sha256_v20/sha256_v20.enc.dat/sha256.route.congmap.gz ...
+% Begin Load SymbolTable ... (date=08/18 22:51:15, mem=2315.7M)
+Un-suppress "**WARN ..." messages.
+% End Load SymbolTable ... (date=08/18 22:51:15, total cpu=0:00:00.0, real=0:00:00.0, peak res=2317.3M, current mem=2317.3M)
+Loading place ...
+% Begin Load placement data ... (date=08/18 22:51:15, mem=2317.3M)
+Reading placement file - /home/kevinlevin/Downloads/asap7_reference_design-main/db/sha256_v20/sha256_v20.enc.dat/sha256.place.gz.
+** Reading stdCellPlacement_binary (Created by Innovus v20.11-s130_1 on Wed Oct 19 18:08:37 2022, version# 2) ...
+Read Views for adaptive view pruning ...
+Read 0 views from Binary DB for adaptive view pruning
+*** applyConnectGlobalNets disabled.
+*** Completed restorePlace (cpu=0:00:00.0 real=0:00:00.0 mem=2217.7M) ***
+Total net length = 1.487e+05 (8.996e+04 5.873e+04) (ext = 6.070e+03)
+% End Load placement data ... (date=08/18 22:51:15, total cpu=0:00:00.0, real=0:00:00.0, peak res=2319.1M, current mem=2318.9M)
+Reading PG file /home/kevinlevin/Downloads/asap7_reference_design-main/db/sha256_v20/sha256_v20.enc.dat/sha256.pg.gz, version#2, (Created by Innovus v20.11-s130_1 on       Wed Oct 19 18:08:37 2022)
+*** Completed restorePGFile (cpu=0:00:00.0 real=0:00:00.0 mem=2217.7M) ***
+% Begin Load routing data ... (date=08/18 22:51:15, mem=2319.3M)
+Reading routing file - /home/kevinlevin/Downloads/asap7_reference_design-main/db/sha256_v20/sha256_v20.enc.dat/sha256.route.gz.
+Reading Innovus routing data (Created by Innovus v20.11-s130_1 on Wed Oct 19 18:08:37 2022 Format: 20.1) ...
+*** Total 9682 nets are successfully restored.
+*** Completed restoreRoute (cpu=0:00:00.1 real=0:00:01.0 mem=2229.7M) ***
+% End Load routing data ... (date=08/18 22:51:16, total cpu=0:00:00.2, real=0:00:01.0, peak res=2335.5M, current mem=2334.5M)
+TAT_INFO: ::restoreCongMap REAL = 0 : CPU = 0 : MEM = 0.
+Reading property file /home/kevinlevin/Downloads/asap7_reference_design-main/db/sha256_v20/sha256_v20.enc.dat/sha256.prop
+*** Completed restoreProperty (cpu=0:00:00.0 real=0:00:00.0 mem=2232.7M) ***
+Reading dirtyarea snapshot file /home/kevinlevin/Downloads/asap7_reference_design-main/db/sha256_v20/sha256_v20.enc.dat/sha256.db.da.gz (Create by Innovus v20.11-s130_1 on Wed Oct 19 18:08:37 2022, version: 4).
+Set Default Input Pin Transition as 0.1 ps.
+Loading preRoute extraction data from directory '/home/kevinlevin/Downloads/asap7_reference_design-main/db/sha256_v20/sha256_v20.enc.dat/extraction/' ...
+Extraction setup Started for TopCell sha256 
+Initializing multi-corner RC extraction with 1 active RC Corners ...
+Generating auto layer map file.
+Importing multi-corner technology file(s) for preRoute extraction...
+/home/kevinlevin/Downloads/asap7_reference_design-main/db/sha256_v20/sha256_v20.enc.dat/libs/mmmc/rc_typ_25/qrcTechFile_typ03_scaled4xV06
+Generating auto layer map file.
+
+Completed (cpu: 0:00:02.7 real: 0:00:03.0)
+Set Shrink Factor to 1.00000
+Summary of Active RC-Corners : 
+ 
+ Analysis View: view_tc
+    RC-Corner Name        : rc_typ_25
+    RC-Corner Index       : 0
+    RC-Corner Temperature : 25 Celsius
+    RC-Corner Cap Table   : ''
+    RC-Corner PreRoute Res Factor         : 1
+    RC-Corner PreRoute Cap Factor         : 1
+    RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+    RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+    RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+    RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+    RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 	[Derived from postRoute_res (effortLevel low)]
+    RC-Corner PostRoute Clock coupling capacitance Factor : 1 {1 1 1} 
+    RC-Corner Technology file: '/home/kevinlevin/Downloads/asap7_reference_design-main/db/sha256_v20/sha256_v20.enc.dat/libs/mmmc/rc_typ_25/qrcTechFile_typ03_scaled4xV06'
+Initializing multi-corner resistance tables ...
+RC corner rc_typ_25 not found in the saved preRoute extraction data.
+Default value for postRoute extraction mode's effortLevel (-effortLevel option of setExtractRCMode) changed to 'medium'.
+delay_tc
+Start generating vias ..
+Extracting standard cell pins and blockage ...... 
+**WARN: (IMPTR-2108):	For layer M10, the gaps of 13 out of 13 tracks are narrower than 16.000um (space 8.000 + width 8.000).
+Type 'man IMPTR-2108' for more detail.
+ As a result, your trialRoute congestion could be incorrect.
+Pin and blockage extraction finished
+Via generation completed successfully.
+Generating auto layer map file.
+Initializing preRoute extraction patterns for new vias...
+Generating auto layer map file.
+
+Completed (cpu: 0:00:00.6 real: 0:00:02.0)
+% Begin Load power constraints ... (date=08/18 22:51:22, mem=2390.2M)
+'set_default_switching_activity' finished successfully.
+% End Load power constraints ... (date=08/18 22:51:22, total cpu=0:00:00.0, real=0:00:00.0, peak res=2396.2M, current mem=2396.2M)
+delay_tc
+% Begin load AAE data ... (date=08/18 22:51:22, mem=2409.5M)
+**WARN: (IMPESI-3505):	setDelayCalMode -eng_copyNetPropToNewNet true (default=true) will be obsoleted along with its sgs2set equivalent.  This parameter will continue to be supported in the current release, but will be removed in the next major release of the software.
+AAE DB initialization (MEM=2422.812500 CPU=0:00:00.0 REAL=0:00:00.0) 
+**WARN: (IMPESI-641):	Restoring an older version: 3, of persistent AaeDB using a newer version: 9, code is not recommended.
+% End load AAE data ... (date=08/18 22:51:22, total cpu=0:00:00.5, real=0:00:00.0, peak res=2422.8M, current mem=2422.8M)
+Restoring CCOpt config...
+  Extracting original clock gating for clk...
+    clock_tree clk contains 1806 sinks and 0 clock gates.
+  Extracting original clock gating for clk done.
+  The skew group clk/sdc was created. It contains 1806 sinks and 1 sources.
+  The skew group clk/sdc was created. It contains 1806 sinks and 1 sources.
+Restoring CCOpt config done.
+Total number of combinational cells: 338
+Total number of sequential cells: 66
+Total number of tristate cells: 0
+Total number of level shifter cells: 0
+Total number of power gating cells: 0
+Total number of isolation cells: 0
+Total number of power switch cells: 0
+Total number of pulse generator cells: 0
+Total number of always on buffers: 0
+Total number of retention cells: 0
+Total number of physical cells: 0
+List of usable buffers: BUFx10_ASAP7_75t_SL BUFx12_ASAP7_75t_SL BUFx12f_ASAP7_75t_SL BUFx16f_ASAP7_75t_SL BUFx24_ASAP7_75t_SL BUFx2_ASAP7_75t_SL BUFx3_ASAP7_75t_SL BUFx4_ASAP7_75t_SL BUFx5_ASAP7_75t_SL BUFx4f_ASAP7_75t_SL BUFx6f_ASAP7_75t_SL BUFx8_ASAP7_75t_SL HB1xp67_ASAP7_75t_SL HB2xp67_ASAP7_75t_SL BUFx10_ASAP7_75t_L BUFx12_ASAP7_75t_L BUFx12f_ASAP7_75t_L BUFx16f_ASAP7_75t_L BUFx24_ASAP7_75t_L BUFx2_ASAP7_75t_L BUFx3_ASAP7_75t_L BUFx4_ASAP7_75t_L BUFx5_ASAP7_75t_L BUFx4f_ASAP7_75t_L BUFx6f_ASAP7_75t_L BUFx8_ASAP7_75t_L HB1xp67_ASAP7_75t_L
+Total number of usable buffers: 27
+List of unusable buffers:
+Total number of unusable buffers: 0
+List of usable inverters: CKINVDCx10_ASAP7_75t_SL CKINVDCx12_ASAP7_75t_SL CKINVDCx11_ASAP7_75t_SL CKINVDCx14_ASAP7_75t_SL CKINVDCx16_ASAP7_75t_SL CKINVDCx20_ASAP7_75t_SL CKINVDCx8_ASAP7_75t_SL CKINVDCx5p33_ASAP7_75t_SL CKINVDCx6p67_ASAP7_75t_SL CKINVDCx9p33_ASAP7_75t_SL INVx11_ASAP7_75t_SL INVx13_ASAP7_75t_SL INVx1_ASAP7_75t_SL INVx2_ASAP7_75t_SL INVx3_ASAP7_75t_SL INVx4_ASAP7_75t_SL INVx5_ASAP7_75t_SL INVx6_ASAP7_75t_SL INVx8_ASAP7_75t_SL INVxp67_ASAP7_75t_SL INVxp33_ASAP7_75t_SL CKINVDCx10_ASAP7_75t_L CKINVDCx12_ASAP7_75t_L CKINVDCx11_ASAP7_75t_L CKINVDCx14_ASAP7_75t_L CKINVDCx16_ASAP7_75t_L CKINVDCx20_ASAP7_75t_L CKINVDCx8_ASAP7_75t_L CKINVDCx5p33_ASAP7_75t_L CKINVDCx6p67_ASAP7_75t_L CKINVDCx9p33_ASAP7_75t_L INVx11_ASAP7_75t_L INVx13_ASAP7_75t_L INVx1_ASAP7_75t_L INVx2_ASAP7_75t_L INVx3_ASAP7_75t_L INVx4_ASAP7_75t_L INVx5_ASAP7_75t_L INVx6_ASAP7_75t_L INVx8_ASAP7_75t_L INVxp67_ASAP7_75t_L INVxp33_ASAP7_75t_L
+Total number of usable inverters: 42
+List of unusable inverters:
+Total number of unusable inverters: 0
+List of identified usable delay cells: HB3xp67_ASAP7_75t_SL HB4xp67_ASAP7_75t_SL HB2xp67_ASAP7_75t_L HB3xp67_ASAP7_75t_L HB4xp67_ASAP7_75t_L
+Total number of identified usable delay cells: 5
+List of identified unusable delay cells:
+Total number of identified unusable delay cells: 0
+**WARN: (IMPCTE-107):	The following globals have been obsoleted since version 20.11-s130_1. They will be removed in the next release. 
+timing_enable_default_delay_arc
+#% End load design ... (date=08/18 22:51:22, total cpu=0:00:13.9, real=0:00:16.0, peak res=2440.0M, current mem=2428.4M)
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   IMPSYT-3004          5  %s                                       
+WARNING   IMPSYT-3046          9  Unknown preference name "%s".            
+WARNING   IMPESI-641           1  Restoring an older version: %d, of persi...
+WARNING   IMPESI-3505          1  setDelayCalMode -eng_%s (default=%s) wil...
+WARNING   IMPTR-2108           2  For layer M%d, the gaps of %d out of %d ...
+WARNING   NRDB-2106            1  Ignoring layer %s MINIMUMCUT rule with W...
+WARNING   NRDB-411             3  spacing table for %s %s is already defin...
+WARNING   NRIF-90              1  Option setNanoRouteMode -route_bottom_ro...
+WARNING   NRIF-91              1  Option setNanoRouteMode -route_top_routi...
+WARNING   IMPCTE-107           1  The following globals have been obsolete...
+WARNING   IMPTCM-77            1  Option "%s" for command %s is obsolete a...
+WARNING   TECHLIB-1277         4  The %s '%s' has been defined for %s %s '...
+*** Message Summary: 30 warning(s), 0 error(s)
+
+<CMD> setDrawView fplan
+<CMD> encMessage warning 1
+<CMD> encMessage debug 0
+<CMD> zoomBox 20.37975 75.85475 114.39550 160.01900
+<CMD> zoomBox 38.17375 113.33750 79.88925 150.68175
+<CMD> zoomBox 16.16700 93.97550 84.09400 154.78475
+<CMD> zoomBox -7.32900 52.97900 122.79800 169.47050
+<CMD> zoomBox -57.74200 -5.39050 154.14800 184.29625
+
+--------------------------------------------------------------------------------
+Exiting Innovus on Mon Aug 18 22:52:00 2025
+  Total CPU time:     0:01:02
+  Total real time:    0:01:33
+  Peak memory (main): 2437.93MB
+
+
+*** Memory Usage v#2 (Current mem = 2353.914M, initial mem = 839.773M) ***
+*** Message Summary: 30 warning(s), 0 error(s)
+
+--- Ending "Innovus" (totcpu=0:00:59.9, real=0:01:32, mem=2353.9M) ---

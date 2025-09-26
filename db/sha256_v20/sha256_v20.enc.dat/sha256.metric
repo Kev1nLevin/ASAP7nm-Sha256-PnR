@@ -1,0 +1,3759 @@
+se::start_metric addWellTap {}
+se::save_metric place.welltap.count {1950}
+se::save_metric place.welltap.area {909.7920 um^2}
+se::end_metric addWellTap {}
+se::start_metric placeDesign {}
+se::save_metric design.numStandardCell {10964}
+se::save_metric design.numNet {9061}
+se::save_metric design.numFloatBlock {0}
+se::save_metric design.numFixedBlock {0}
+se::save_metric design.numSingleRowCell {10964}
+se::save_metric design.numDoubleRowCell {0}
+se::save_metric design.numMultiRowCell {0}
+se::save_metric design.numIoInst {0}
+se::save_metric design.numFixedIo {0}
+se::save_metric design.numFloatIo {0}
+se::save_metric design.numTerm {36735}
+se::save_metric design.numTermPerNet {4.05}
+se::save_metric design.util {88.448 %}
+se::save_metric design.pinDensity {0.327}
+se::save_metric place.totalNetLength {0.00e+00 um}
+se::save_metric cputime {0:1:14}
+se::save_metric realtime {0:0:21}
+se::save_metric mem {2094.2M}
+se::end_metric placeDesign {}
+se::start_metric optDesign {-preCts}
+se::save_metric timing.setup.WNS.all {0.020 ns }
+se::save_metric timing.setup.TNS.all {0.000 ns }
+se::save_metric timing.setup.numPaths.all {3644}
+se::save_metric timing.setup.numViolatingPaths.all {0}
+se::save_metric timing.setup.WNS.reg2reg {0.020 ns }
+se::save_metric timing.setup.TNS.reg2reg {0.000 ns }
+se::save_metric timing.setup.numPaths.reg2reg {1804}
+se::save_metric timing.setup.numViolatingPaths.reg2reg {0}
+se::save_metric timing.setup.WNS.default {0.022 ns }
+se::save_metric timing.setup.TNS.default {0.000 ns }
+se::save_metric timing.setup.numPaths.default {2353}
+se::save_metric timing.setup.numViolatingPaths.default {0}
+se::save_metric timing.DRV.maxCap.real.nets {0}
+se::save_metric timing.DRV.maxCap.real.terms {0}
+se::save_metric timing.DRV.maxCap.real.Worst {0.000}
+se::save_metric timing.DRV.maxCap.total.nets {0}
+se::save_metric timing.DRV.maxCap.total.terms {0}
+se::save_metric timing.DRV.maxTran.real.nets {0}
+se::save_metric timing.DRV.maxTran.real.terms {0}
+se::save_metric timing.DRV.maxTran.real.Worst {0.000}
+se::save_metric timing.DRV.maxTran.total.nets {0}
+se::save_metric timing.DRV.maxTran.total.terms {0}
+se::save_metric timing.DRV.maxFanout.real.nets {0}
+se::save_metric timing.DRV.maxFanout.real.terms {0}
+se::save_metric timing.DRV.maxFanout.real.Worst {0.000}
+se::save_metric timing.DRV.maxFanout.total.nets {0}
+se::save_metric timing.DRV.maxFanout.total.terms {0}
+se::save_metric design.util {86.776 %}
+se::save_metric route.overconH {2.141 %}
+se::save_metric route.overconV {0.305 %}
+se::save_metric route.overcon.total {0.000 %}
+se::save_metric route.overcon.worst {0.000 %}
+se::save_metric route.overcon.max {0.000 }
+se::save_metric cputime {0:02:15 }
+se::save_metric realtime {0:01:07 }
+se::save_metric mem {2640.852 M}
+se::end_metric optDesign {-preCts}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.gcell.overCon.M2 {(0.47%)}
+se::save_metric routeDesign.gcell.overCon.M3 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M4 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M5 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M6 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M7 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.total {(0.08%)}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {5888 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {890 um}
+se::save_metric routeDesign.wirelength.M3 {2711 um}
+se::save_metric routeDesign.wirelength.M4 {1668 um}
+se::save_metric routeDesign.wirelength.M5 {620 um}
+se::save_metric routeDesign.wirelength.M6 {0 um}
+se::save_metric routeDesign.wirelength.M7 {0 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {4428}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {1860}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {1539}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {736}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {293}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {5886 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {824 um}
+se::save_metric routeDesign.wirelength.M3 {2657 um}
+se::save_metric routeDesign.wirelength.M4 {1714 um}
+se::save_metric routeDesign.wirelength.M5 {691 um}
+se::save_metric routeDesign.wirelength.M6 {0 um}
+se::save_metric routeDesign.wirelength.M7 {0 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {4428}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {1860}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {1539}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {736}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {293}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {6704 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {807 um}
+se::save_metric routeDesign.wirelength.M3 {2918 um}
+se::save_metric routeDesign.wirelength.M4 {2398 um}
+se::save_metric routeDesign.wirelength.M5 {580 um}
+se::save_metric routeDesign.wirelength.M6 {0 um}
+se::save_metric routeDesign.wirelength.M7 {0 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {5043}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {1862}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {1771}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {1208}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {202}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.DRC.total {0}
+se::save_metric routeDesign.DRC.M1 {0}
+se::save_metric routeDesign.DRC.M2 {0}
+se::save_metric routeDesign.DRC.M3 {0}
+se::save_metric routeDesign.DRC.M4 {0}
+se::save_metric routeDesign.DRC.M5 {0}
+se::save_metric routeDesign.DRC.M6 {0}
+se::save_metric routeDesign.DRC.M7 {0}
+se::save_metric routeDesign.DRC.M8 {0}
+se::save_metric routeDesign.DRC.M9 {0}
+se::save_metric routeDesign.DRC.Pad {0}
+se::end_metric routeDesign {}
+se::start_metric optDesign {-postCts}
+se::save_metric timing.setup.WNS.all {-0.002 ns }
+se::save_metric timing.setup.TNS.all {-0.002 ns }
+se::save_metric timing.setup.numPaths.all {3644}
+se::save_metric timing.setup.numViolatingPaths.all {1}
+se::save_metric timing.setup.WNS.reg2reg {0.017 ns }
+se::save_metric timing.setup.TNS.reg2reg {0.000 ns }
+se::save_metric timing.setup.numPaths.reg2reg {1804}
+se::save_metric timing.setup.numViolatingPaths.reg2reg {0}
+se::save_metric timing.setup.WNS.default {-0.002 ns }
+se::save_metric timing.setup.TNS.default {-0.002 ns }
+se::save_metric timing.setup.numPaths.default {2353}
+se::save_metric timing.setup.numViolatingPaths.default {1}
+se::save_metric timing.DRV.maxCap.real.nets {0}
+se::save_metric timing.DRV.maxCap.real.terms {0}
+se::save_metric timing.DRV.maxCap.real.Worst {0.000}
+se::save_metric timing.DRV.maxCap.total.nets {0}
+se::save_metric timing.DRV.maxCap.total.terms {0}
+se::save_metric timing.DRV.maxTran.real.nets {0}
+se::save_metric timing.DRV.maxTran.real.terms {0}
+se::save_metric timing.DRV.maxTran.real.Worst {0.000}
+se::save_metric timing.DRV.maxTran.total.nets {0}
+se::save_metric timing.DRV.maxTran.total.terms {0}
+se::save_metric timing.DRV.maxFanout.real.nets {0}
+se::save_metric timing.DRV.maxFanout.real.terms {0}
+se::save_metric timing.DRV.maxFanout.real.Worst {0.000}
+se::save_metric timing.DRV.maxFanout.total.nets {0}
+se::save_metric timing.DRV.maxFanout.total.terms {0}
+se::save_metric design.util {88.132 %}
+se::save_metric route.overconH {6.348 %}
+se::save_metric route.overconV {1.288 %}
+se::save_metric route.overcon.total {0.000 %}
+se::save_metric route.overcon.worst {0.000 %}
+se::save_metric route.overcon.max {0.000 }
+se::save_metric cputime {0:00:44.0 }
+se::save_metric realtime {0:00:30.0 }
+se::save_metric mem {2782.711 M}
+se::end_metric optDesign {-postCts}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.gcell.overCon.M2 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M3 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M4 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M5 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M6 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M7 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.total {(0.00%)}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {6704 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {807 um}
+se::save_metric routeDesign.wirelength.M3 {2918 um}
+se::save_metric routeDesign.wirelength.M4 {2398 um}
+se::save_metric routeDesign.wirelength.M5 {580 um}
+se::save_metric routeDesign.wirelength.M6 {0 um}
+se::save_metric routeDesign.wirelength.M7 {0 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {5043}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {1862}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {1771}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {1208}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {202}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {6704 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {807 um}
+se::save_metric routeDesign.wirelength.M3 {2918 um}
+se::save_metric routeDesign.wirelength.M4 {2398 um}
+se::save_metric routeDesign.wirelength.M5 {580 um}
+se::save_metric routeDesign.wirelength.M6 {0 um}
+se::save_metric routeDesign.wirelength.M7 {0 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {5043}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {1862}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {1771}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {1208}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {202}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {6705 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {809 um}
+se::save_metric routeDesign.wirelength.M3 {2918 um}
+se::save_metric routeDesign.wirelength.M4 {2398 um}
+se::save_metric routeDesign.wirelength.M5 {580 um}
+se::save_metric routeDesign.wirelength.M6 {0 um}
+se::save_metric routeDesign.wirelength.M7 {0 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {5043}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {1862}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {1771}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {1208}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {202}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.DRC.total {0}
+se::save_metric routeDesign.DRC.M1 {0}
+se::save_metric routeDesign.DRC.M2 {0}
+se::save_metric routeDesign.DRC.M3 {0}
+se::save_metric routeDesign.DRC.M4 {0}
+se::save_metric routeDesign.DRC.M5 {0}
+se::save_metric routeDesign.DRC.M6 {0}
+se::save_metric routeDesign.DRC.M7 {0}
+se::save_metric routeDesign.DRC.M8 {0}
+se::save_metric routeDesign.DRC.M9 {0}
+se::save_metric routeDesign.DRC.Pad {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {6705 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {809 um}
+se::save_metric routeDesign.wirelength.M3 {2918 um}
+se::save_metric routeDesign.wirelength.M4 {2398 um}
+se::save_metric routeDesign.wirelength.M5 {580 um}
+se::save_metric routeDesign.wirelength.M6 {0 um}
+se::save_metric routeDesign.wirelength.M7 {0 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {5043}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {1862}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {1771}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {1208}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {202}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.DRC.total {0}
+se::save_metric routeDesign.DRC.M1 {0}
+se::save_metric routeDesign.DRC.M2 {0}
+se::save_metric routeDesign.DRC.M3 {0}
+se::save_metric routeDesign.DRC.M4 {0}
+se::save_metric routeDesign.DRC.M5 {0}
+se::save_metric routeDesign.DRC.M6 {0}
+se::save_metric routeDesign.DRC.M7 {0}
+se::save_metric routeDesign.DRC.M8 {0}
+se::save_metric routeDesign.DRC.M9 {0}
+se::save_metric routeDesign.DRC.Pad {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.gcell.overCon.M2 {(7.42%)}
+se::save_metric routeDesign.gcell.overCon.M3 {(0.91%)}
+se::save_metric routeDesign.gcell.overCon.M4 {(0.53%)}
+se::save_metric routeDesign.gcell.overCon.M5 {(0.02%)}
+se::save_metric routeDesign.gcell.overCon.M6 {(2.78%)}
+se::save_metric routeDesign.gcell.overCon.M7 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.total {(1.95%)}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {197912 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {26492 um}
+se::save_metric routeDesign.wirelength.M3 {48195 um}
+se::save_metric routeDesign.wirelength.M4 {62933 um}
+se::save_metric routeDesign.wirelength.M5 {37504 um}
+se::save_metric routeDesign.wirelength.M6 {19140 um}
+se::save_metric routeDesign.wirelength.M7 {3648 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {90130}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {34372}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {29947}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {16505}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6779}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2180}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {347}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200819 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {28398 um}
+se::save_metric routeDesign.wirelength.M3 {47639 um}
+se::save_metric routeDesign.wirelength.M4 {64474 um}
+se::save_metric routeDesign.wirelength.M5 {37400 um}
+se::save_metric routeDesign.wirelength.M6 {19264 um}
+se::save_metric routeDesign.wirelength.M7 {3644 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {90130}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {34372}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {29947}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {16505}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6779}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2180}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {347}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200402 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {28359 um}
+se::save_metric routeDesign.wirelength.M3 {47640 um}
+se::save_metric routeDesign.wirelength.M4 {64253 um}
+se::save_metric routeDesign.wirelength.M5 {37259 um}
+se::save_metric routeDesign.wirelength.M6 {19249 um}
+se::save_metric routeDesign.wirelength.M7 {3641 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {90130}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {34372}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {29947}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {16505}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6779}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2180}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {347}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200006 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40622 um}
+se::save_metric routeDesign.wirelength.M3 {52324 um}
+se::save_metric routeDesign.wirelength.M4 {52945 um}
+se::save_metric routeDesign.wirelength.M5 {31101 um}
+se::save_metric routeDesign.wirelength.M6 {19527 um}
+se::save_metric routeDesign.wirelength.M7 {3488 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {104489}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36134}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {43723}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15526}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6334}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2410}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {362}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.DRC.total {24}
+se::save_metric routeDesign.DRC.M1 {0}
+se::save_metric routeDesign.DRC.M2 {22}
+se::save_metric routeDesign.DRC.M3 {0}
+se::save_metric routeDesign.DRC.M4 {2}
+se::save_metric routeDesign.DRC.M5 {0}
+se::save_metric routeDesign.DRC.M6 {0}
+se::save_metric routeDesign.DRC.M7 {0}
+se::save_metric routeDesign.DRC.M8 {0}
+se::save_metric routeDesign.DRC.M9 {0}
+se::save_metric routeDesign.DRC.Pad {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200006 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40622 um}
+se::save_metric routeDesign.wirelength.M3 {52324 um}
+se::save_metric routeDesign.wirelength.M4 {52945 um}
+se::save_metric routeDesign.wirelength.M5 {31101 um}
+se::save_metric routeDesign.wirelength.M6 {19527 um}
+se::save_metric routeDesign.wirelength.M7 {3488 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {104489}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36134}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {43723}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15526}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6334}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2410}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {362}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.DRC.total {24}
+se::save_metric routeDesign.DRC.M1 {0}
+se::save_metric routeDesign.DRC.M2 {22}
+se::save_metric routeDesign.DRC.M3 {0}
+se::save_metric routeDesign.DRC.M4 {2}
+se::save_metric routeDesign.DRC.M5 {0}
+se::save_metric routeDesign.DRC.M6 {0}
+se::save_metric routeDesign.DRC.M7 {0}
+se::save_metric routeDesign.DRC.M8 {0}
+se::save_metric routeDesign.DRC.M9 {0}
+se::save_metric routeDesign.DRC.Pad {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.DRC.total {24}
+se::save_metric routeDesign.DRC.M1 {0}
+se::save_metric routeDesign.DRC.M2 {22}
+se::save_metric routeDesign.DRC.M3 {0}
+se::save_metric routeDesign.DRC.M4 {2}
+se::save_metric routeDesign.DRC.M5 {0}
+se::save_metric routeDesign.DRC.M6 {0}
+se::save_metric routeDesign.DRC.M7 {0}
+se::save_metric routeDesign.DRC.M8 {0}
+se::save_metric routeDesign.DRC.M9 {0}
+se::save_metric routeDesign.DRC.Pad {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200006 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40622 um}
+se::save_metric routeDesign.wirelength.M3 {52324 um}
+se::save_metric routeDesign.wirelength.M4 {52945 um}
+se::save_metric routeDesign.wirelength.M5 {31101 um}
+se::save_metric routeDesign.wirelength.M6 {19527 um}
+se::save_metric routeDesign.wirelength.M7 {3488 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {104489}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36134}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {43723}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15526}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6334}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2410}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {362}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.cputime {0:12:06}
+se::save_metric routeDesign.realtime {0:03:16}
+se::save_metric routeDesign.mem {2804.8M}
+se::save_metric routeDesign.meminc {942.0M}
+se::save_metric routeDesign.peakmem {3081.6M}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.gcell.overCon.M2 {(0.08%)}
+se::save_metric routeDesign.gcell.overCon.M3 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M4 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M5 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M6 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M7 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.total {(0.01%)}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200113 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40659 um}
+se::save_metric routeDesign.wirelength.M3 {52372 um}
+se::save_metric routeDesign.wirelength.M4 {52961 um}
+se::save_metric routeDesign.wirelength.M5 {31106 um}
+se::save_metric routeDesign.wirelength.M6 {19527 um}
+se::save_metric routeDesign.wirelength.M7 {3488 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {104516}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36137}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {43739}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15531}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6337}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2410}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {362}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200165 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40688 um}
+se::save_metric routeDesign.wirelength.M3 {52390 um}
+se::save_metric routeDesign.wirelength.M4 {52964 um}
+se::save_metric routeDesign.wirelength.M5 {31108 um}
+se::save_metric routeDesign.wirelength.M6 {19527 um}
+se::save_metric routeDesign.wirelength.M7 {3488 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {104516}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36137}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {43739}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15531}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6337}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2410}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {362}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200163 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40721 um}
+se::save_metric routeDesign.wirelength.M3 {52353 um}
+se::save_metric routeDesign.wirelength.M4 {52922 um}
+se::save_metric routeDesign.wirelength.M5 {31136 um}
+se::save_metric routeDesign.wirelength.M6 {19532 um}
+se::save_metric routeDesign.wirelength.M7 {3500 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {104724}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36143}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {43894}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15528}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6372}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2430}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {357}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.DRC.total {17}
+se::save_metric routeDesign.DRC.M1 {0}
+se::save_metric routeDesign.DRC.M2 {14}
+se::save_metric routeDesign.DRC.M3 {1}
+se::save_metric routeDesign.DRC.M4 {2}
+se::save_metric routeDesign.DRC.M5 {0}
+se::save_metric routeDesign.DRC.M6 {0}
+se::save_metric routeDesign.DRC.M7 {0}
+se::save_metric routeDesign.DRC.M8 {0}
+se::save_metric routeDesign.DRC.M9 {0}
+se::save_metric routeDesign.DRC.Pad {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200163 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40721 um}
+se::save_metric routeDesign.wirelength.M3 {52353 um}
+se::save_metric routeDesign.wirelength.M4 {52922 um}
+se::save_metric routeDesign.wirelength.M5 {31136 um}
+se::save_metric routeDesign.wirelength.M6 {19532 um}
+se::save_metric routeDesign.wirelength.M7 {3500 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {104724}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36143}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {43894}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15528}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6372}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2430}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {357}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.DRC.total {17}
+se::save_metric routeDesign.DRC.M1 {0}
+se::save_metric routeDesign.DRC.M2 {14}
+se::save_metric routeDesign.DRC.M3 {1}
+se::save_metric routeDesign.DRC.M4 {2}
+se::save_metric routeDesign.DRC.M5 {0}
+se::save_metric routeDesign.DRC.M6 {0}
+se::save_metric routeDesign.DRC.M7 {0}
+se::save_metric routeDesign.DRC.M8 {0}
+se::save_metric routeDesign.DRC.M9 {0}
+se::save_metric routeDesign.DRC.Pad {0}
+se::end_metric routeDesign {}
+se::start_metric optDesign {-postRoute}
+se::save_metric timing.setup.WNS.all {0.018 ns }
+se::save_metric timing.setup.TNS.all {0.000 ns }
+se::save_metric timing.setup.numPaths.all {3644}
+se::save_metric timing.setup.numViolatingPaths.all {0}
+se::save_metric timing.setup.WNS.reg2reg {0.059 ns }
+se::save_metric timing.setup.TNS.reg2reg {0.000 ns }
+se::save_metric timing.setup.numPaths.reg2reg {1804}
+se::save_metric timing.setup.numViolatingPaths.reg2reg {0}
+se::save_metric timing.setup.WNS.default {0.018 ns }
+se::save_metric timing.setup.TNS.default {0.000 ns }
+se::save_metric timing.setup.numPaths.default {2353}
+se::save_metric timing.setup.numViolatingPaths.default {0}
+se::save_metric timing.DRV.maxCap.real.nets {0}
+se::save_metric timing.DRV.maxCap.real.terms {0}
+se::save_metric timing.DRV.maxCap.real.Worst {0.000}
+se::save_metric timing.DRV.maxCap.total.nets {0}
+se::save_metric timing.DRV.maxCap.total.terms {0}
+se::save_metric timing.DRV.maxTran.real.nets {0}
+se::save_metric timing.DRV.maxTran.real.terms {0}
+se::save_metric timing.DRV.maxTran.real.Worst {0.000}
+se::save_metric timing.DRV.maxTran.total.nets {0}
+se::save_metric timing.DRV.maxTran.total.terms {0}
+se::save_metric timing.DRV.maxFanout.real.nets {0}
+se::save_metric timing.DRV.maxFanout.real.terms {0}
+se::save_metric timing.DRV.maxFanout.real.Worst {0.000}
+se::save_metric timing.DRV.maxFanout.total.nets {0}
+se::save_metric timing.DRV.maxFanout.total.terms {0}
+se::save_metric design.util {88.177 %}
+se::save_metric cputime {0:05:21 }
+se::save_metric realtime {0:01:54 }
+se::save_metric mem {3269.617 M}
+se::end_metric optDesign {-postRoute}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.gcell.overCon.M2 {(0.25%)}
+se::save_metric routeDesign.gcell.overCon.M3 {(0.02%)}
+se::save_metric routeDesign.gcell.overCon.M4 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M5 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M6 {(0.08%)}
+se::save_metric routeDesign.gcell.overCon.M7 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.total {(0.06%)}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200359 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40808 um}
+se::save_metric routeDesign.wirelength.M3 {52413 um}
+se::save_metric routeDesign.wirelength.M4 {52980 um}
+se::save_metric routeDesign.wirelength.M5 {31138 um}
+se::save_metric routeDesign.wirelength.M6 {19521 um}
+se::save_metric routeDesign.wirelength.M7 {3500 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105026}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36249}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {43975}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15591}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6414}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2440}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {357}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200468 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40848 um}
+se::save_metric routeDesign.wirelength.M3 {52418 um}
+se::save_metric routeDesign.wirelength.M4 {53004 um}
+se::save_metric routeDesign.wirelength.M5 {31167 um}
+se::save_metric routeDesign.wirelength.M6 {19532 um}
+se::save_metric routeDesign.wirelength.M7 {3500 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105026}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36249}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {43975}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15591}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6414}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2440}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {357}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200499 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40828 um}
+se::save_metric routeDesign.wirelength.M3 {52487 um}
+se::save_metric routeDesign.wirelength.M4 {52971 um}
+se::save_metric routeDesign.wirelength.M5 {31125 um}
+se::save_metric routeDesign.wirelength.M6 {19584 um}
+se::save_metric routeDesign.wirelength.M7 {3504 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105244}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36251}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44087}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15650}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6411}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2482}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {363}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.DRC.total {22}
+se::save_metric routeDesign.DRC.M1 {0}
+se::save_metric routeDesign.DRC.M2 {15}
+se::save_metric routeDesign.DRC.M3 {3}
+se::save_metric routeDesign.DRC.M4 {4}
+se::save_metric routeDesign.DRC.M5 {0}
+se::save_metric routeDesign.DRC.M6 {0}
+se::save_metric routeDesign.DRC.M7 {0}
+se::save_metric routeDesign.DRC.M8 {0}
+se::save_metric routeDesign.DRC.M9 {0}
+se::save_metric routeDesign.DRC.Pad {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200499 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40828 um}
+se::save_metric routeDesign.wirelength.M3 {52487 um}
+se::save_metric routeDesign.wirelength.M4 {52971 um}
+se::save_metric routeDesign.wirelength.M5 {31125 um}
+se::save_metric routeDesign.wirelength.M6 {19584 um}
+se::save_metric routeDesign.wirelength.M7 {3504 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105244}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36251}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44087}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15650}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6411}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2482}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {363}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.DRC.total {22}
+se::save_metric routeDesign.DRC.M1 {0}
+se::save_metric routeDesign.DRC.M2 {15}
+se::save_metric routeDesign.DRC.M3 {3}
+se::save_metric routeDesign.DRC.M4 {4}
+se::save_metric routeDesign.DRC.M5 {0}
+se::save_metric routeDesign.DRC.M6 {0}
+se::save_metric routeDesign.DRC.M7 {0}
+se::save_metric routeDesign.DRC.M8 {0}
+se::save_metric routeDesign.DRC.M9 {0}
+se::save_metric routeDesign.DRC.Pad {0}
+se::end_metric routeDesign {}
+se::start_metric optDesign {-postRoute -hold}
+se::save_metric timing.setup.WNS.all {0.015 ns }
+se::save_metric timing.setup.TNS.all {0.000 ns }
+se::save_metric timing.setup.numPaths.all {3644}
+se::save_metric timing.setup.numViolatingPaths.all {0}
+se::save_metric timing.setup.WNS.reg2reg {0.059 ns }
+se::save_metric timing.setup.TNS.reg2reg {0.000 ns }
+se::save_metric timing.setup.numPaths.reg2reg {1804}
+se::save_metric timing.setup.numViolatingPaths.reg2reg {0}
+se::save_metric timing.setup.WNS.default {0.015 ns }
+se::save_metric timing.setup.TNS.default {0.000 ns }
+se::save_metric timing.setup.numPaths.default {2353}
+se::save_metric timing.setup.numViolatingPaths.default {0}
+se::save_metric timing.hold.WNS.all {0.021 ns }
+se::save_metric timing.hold.TNS.all {0.000 ns }
+se::save_metric timing.hold.numPaths.all {3644}
+se::save_metric timing.hold.numViolatingPaths.all {0}
+se::save_metric timing.hold.WNS.reg2reg {0.079 ns }
+se::save_metric timing.hold.TNS.reg2reg {0.000 ns }
+se::save_metric timing.hold.numPaths.reg2reg {1804}
+se::save_metric timing.hold.numViolatingPaths.reg2reg {0}
+se::save_metric timing.hold.WNS.default {0.021 ns }
+se::save_metric timing.hold.TNS.default {0.000 ns }
+se::save_metric timing.hold.numPaths.default {2353}
+se::save_metric timing.hold.numViolatingPaths.default {0}
+se::save_metric timing.DRV.maxCap.real.nets {0}
+se::save_metric timing.DRV.maxCap.real.terms {0}
+se::save_metric timing.DRV.maxCap.real.Worst {0.000}
+se::save_metric timing.DRV.maxCap.total.nets {0}
+se::save_metric timing.DRV.maxCap.total.terms {0}
+se::save_metric timing.DRV.maxTran.real.nets {0}
+se::save_metric timing.DRV.maxTran.real.terms {0}
+se::save_metric timing.DRV.maxTran.real.Worst {0.000}
+se::save_metric timing.DRV.maxTran.total.nets {0}
+se::save_metric timing.DRV.maxTran.total.terms {0}
+se::save_metric timing.DRV.maxFanout.real.nets {0}
+se::save_metric timing.DRV.maxFanout.real.terms {0}
+se::save_metric timing.DRV.maxFanout.real.Worst {0.000}
+se::save_metric timing.DRV.maxFanout.total.nets {0}
+se::save_metric timing.DRV.maxFanout.total.terms {0}
+se::save_metric design.util {88.400 %}
+se::save_metric cputime {0:04:51 }
+se::save_metric realtime {0:01:29 }
+se::save_metric mem {3419.641 M}
+se::end_metric optDesign {-postRoute -hold}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.gcell.overCon.M2 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M3 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M4 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M5 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M6 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M7 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.total {(0.00%)}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200507 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40838 um}
+se::save_metric routeDesign.wirelength.M3 {52486 um}
+se::save_metric routeDesign.wirelength.M4 {52971 um}
+se::save_metric routeDesign.wirelength.M5 {31125 um}
+se::save_metric routeDesign.wirelength.M6 {19584 um}
+se::save_metric routeDesign.wirelength.M7 {3504 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105238}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36249}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44083}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15650}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6411}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2482}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {363}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200518 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40849 um}
+se::save_metric routeDesign.wirelength.M3 {52486 um}
+se::save_metric routeDesign.wirelength.M4 {52971 um}
+se::save_metric routeDesign.wirelength.M5 {31125 um}
+se::save_metric routeDesign.wirelength.M6 {19584 um}
+se::save_metric routeDesign.wirelength.M7 {3504 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105238}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36249}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44083}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15650}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6411}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2482}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {363}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200513 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40861 um}
+se::save_metric routeDesign.wirelength.M3 {52458 um}
+se::save_metric routeDesign.wirelength.M4 {53007 um}
+se::save_metric routeDesign.wirelength.M5 {31126 um}
+se::save_metric routeDesign.wirelength.M6 {19553 um}
+se::save_metric routeDesign.wirelength.M7 {3508 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105239}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36251}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44075}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15646}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6427}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2475}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {365}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.DRC.total {17}
+se::save_metric routeDesign.DRC.M1 {0}
+se::save_metric routeDesign.DRC.M2 {16}
+se::save_metric routeDesign.DRC.M3 {0}
+se::save_metric routeDesign.DRC.M4 {1}
+se::save_metric routeDesign.DRC.M5 {0}
+se::save_metric routeDesign.DRC.M6 {0}
+se::save_metric routeDesign.DRC.M7 {0}
+se::save_metric routeDesign.DRC.M8 {0}
+se::save_metric routeDesign.DRC.M9 {0}
+se::save_metric routeDesign.DRC.Pad {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200513 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40861 um}
+se::save_metric routeDesign.wirelength.M3 {52458 um}
+se::save_metric routeDesign.wirelength.M4 {53007 um}
+se::save_metric routeDesign.wirelength.M5 {31126 um}
+se::save_metric routeDesign.wirelength.M6 {19553 um}
+se::save_metric routeDesign.wirelength.M7 {3508 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105239}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36251}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44075}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15646}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6427}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2475}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {365}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.DRC.total {17}
+se::save_metric routeDesign.DRC.M1 {0}
+se::save_metric routeDesign.DRC.M2 {16}
+se::save_metric routeDesign.DRC.M3 {0}
+se::save_metric routeDesign.DRC.M4 {1}
+se::save_metric routeDesign.DRC.M5 {0}
+se::save_metric routeDesign.DRC.M6 {0}
+se::save_metric routeDesign.DRC.M7 {0}
+se::save_metric routeDesign.DRC.M8 {0}
+se::save_metric routeDesign.DRC.M9 {0}
+se::save_metric routeDesign.DRC.Pad {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.gcell.overCon.M2 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M3 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M4 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M5 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M6 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M7 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.total {(0.00%)}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200517 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40872 um}
+se::save_metric routeDesign.wirelength.M3 {52453 um}
+se::save_metric routeDesign.wirelength.M4 {53005 um}
+se::save_metric routeDesign.wirelength.M5 {31126 um}
+se::save_metric routeDesign.wirelength.M6 {19553 um}
+se::save_metric routeDesign.wirelength.M7 {3508 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105225}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36249}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44065}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15644}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6427}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2475}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {365}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200527 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40882 um}
+se::save_metric routeDesign.wirelength.M3 {52453 um}
+se::save_metric routeDesign.wirelength.M4 {53005 um}
+se::save_metric routeDesign.wirelength.M5 {31126 um}
+se::save_metric routeDesign.wirelength.M6 {19553 um}
+se::save_metric routeDesign.wirelength.M7 {3508 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105225}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36249}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44065}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15644}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6427}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2475}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {365}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200590 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40843 um}
+se::save_metric routeDesign.wirelength.M3 {52474 um}
+se::save_metric routeDesign.wirelength.M4 {53062 um}
+se::save_metric routeDesign.wirelength.M5 {31133 um}
+se::save_metric routeDesign.wirelength.M6 {19563 um}
+se::save_metric routeDesign.wirelength.M7 {3515 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105301}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36251}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44084}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15669}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6449}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2478}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {370}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.DRC.total {16}
+se::save_metric routeDesign.DRC.M1 {0}
+se::save_metric routeDesign.DRC.M2 {15}
+se::save_metric routeDesign.DRC.M3 {0}
+se::save_metric routeDesign.DRC.M4 {1}
+se::save_metric routeDesign.DRC.M5 {0}
+se::save_metric routeDesign.DRC.M6 {0}
+se::save_metric routeDesign.DRC.M7 {0}
+se::save_metric routeDesign.DRC.M8 {0}
+se::save_metric routeDesign.DRC.M9 {0}
+se::save_metric routeDesign.DRC.Pad {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200590 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40843 um}
+se::save_metric routeDesign.wirelength.M3 {52474 um}
+se::save_metric routeDesign.wirelength.M4 {53062 um}
+se::save_metric routeDesign.wirelength.M5 {31133 um}
+se::save_metric routeDesign.wirelength.M6 {19563 um}
+se::save_metric routeDesign.wirelength.M7 {3515 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105301}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36251}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44084}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15669}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6449}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2478}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {370}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.DRC.total {16}
+se::save_metric routeDesign.DRC.M1 {0}
+se::save_metric routeDesign.DRC.M2 {15}
+se::save_metric routeDesign.DRC.M3 {0}
+se::save_metric routeDesign.DRC.M4 {1}
+se::save_metric routeDesign.DRC.M5 {0}
+se::save_metric routeDesign.DRC.M6 {0}
+se::save_metric routeDesign.DRC.M7 {0}
+se::save_metric routeDesign.DRC.M8 {0}
+se::save_metric routeDesign.DRC.M9 {0}
+se::save_metric routeDesign.DRC.Pad {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.gcell.overCon.M2 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M3 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M4 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M5 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M6 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M7 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.total {(0.00%)}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200585 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40839 um}
+se::save_metric routeDesign.wirelength.M3 {52472 um}
+se::save_metric routeDesign.wirelength.M4 {53062 um}
+se::save_metric routeDesign.wirelength.M5 {31133 um}
+se::save_metric routeDesign.wirelength.M6 {19563 um}
+se::save_metric routeDesign.wirelength.M7 {3515 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105296}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36250}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44080}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15669}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6449}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2478}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {370}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200585 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40840 um}
+se::save_metric routeDesign.wirelength.M3 {52472 um}
+se::save_metric routeDesign.wirelength.M4 {53062 um}
+se::save_metric routeDesign.wirelength.M5 {31133 um}
+se::save_metric routeDesign.wirelength.M6 {19563 um}
+se::save_metric routeDesign.wirelength.M7 {3515 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105296}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36250}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44080}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15669}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6449}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2478}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {370}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200566 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40861 um}
+se::save_metric routeDesign.wirelength.M3 {52462 um}
+se::save_metric routeDesign.wirelength.M4 {53054 um}
+se::save_metric routeDesign.wirelength.M5 {31120 um}
+se::save_metric routeDesign.wirelength.M6 {19541 um}
+se::save_metric routeDesign.wirelength.M7 {3527 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105283}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36254}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44079}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15656}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6444}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2475}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {375}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.DRC.total {20}
+se::save_metric routeDesign.DRC.M1 {0}
+se::save_metric routeDesign.DRC.M2 {17}
+se::save_metric routeDesign.DRC.M3 {2}
+se::save_metric routeDesign.DRC.M4 {1}
+se::save_metric routeDesign.DRC.M5 {0}
+se::save_metric routeDesign.DRC.M6 {0}
+se::save_metric routeDesign.DRC.M7 {0}
+se::save_metric routeDesign.DRC.M8 {0}
+se::save_metric routeDesign.DRC.M9 {0}
+se::save_metric routeDesign.DRC.Pad {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200566 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40861 um}
+se::save_metric routeDesign.wirelength.M3 {52462 um}
+se::save_metric routeDesign.wirelength.M4 {53054 um}
+se::save_metric routeDesign.wirelength.M5 {31120 um}
+se::save_metric routeDesign.wirelength.M6 {19541 um}
+se::save_metric routeDesign.wirelength.M7 {3527 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105283}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36254}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44079}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15656}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6444}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2475}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {375}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.DRC.total {20}
+se::save_metric routeDesign.DRC.M1 {0}
+se::save_metric routeDesign.DRC.M2 {17}
+se::save_metric routeDesign.DRC.M3 {2}
+se::save_metric routeDesign.DRC.M4 {1}
+se::save_metric routeDesign.DRC.M5 {0}
+se::save_metric routeDesign.DRC.M6 {0}
+se::save_metric routeDesign.DRC.M7 {0}
+se::save_metric routeDesign.DRC.M8 {0}
+se::save_metric routeDesign.DRC.M9 {0}
+se::save_metric routeDesign.DRC.Pad {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.gcell.overCon.M2 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M3 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M4 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M5 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M6 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M7 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.total {(0.00%)}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200585 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40875 um}
+se::save_metric routeDesign.wirelength.M3 {52461 um}
+se::save_metric routeDesign.wirelength.M4 {53061 um}
+se::save_metric routeDesign.wirelength.M5 {31120 um}
+se::save_metric routeDesign.wirelength.M6 {19541 um}
+se::save_metric routeDesign.wirelength.M7 {3527 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105282}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36254}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44077}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15657}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6444}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2475}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {375}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200598 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40883 um}
+se::save_metric routeDesign.wirelength.M3 {52463 um}
+se::save_metric routeDesign.wirelength.M4 {53064 um}
+se::save_metric routeDesign.wirelength.M5 {31120 um}
+se::save_metric routeDesign.wirelength.M6 {19541 um}
+se::save_metric routeDesign.wirelength.M7 {3527 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105282}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36254}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44077}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15657}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6444}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2475}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {375}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200637 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40908 um}
+se::save_metric routeDesign.wirelength.M3 {52469 um}
+se::save_metric routeDesign.wirelength.M4 {53043 um}
+se::save_metric routeDesign.wirelength.M5 {31117 um}
+se::save_metric routeDesign.wirelength.M6 {19556 um}
+se::save_metric routeDesign.wirelength.M7 {3544 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105374}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36253}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44123}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15673}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6455}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2483}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {387}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.DRC.total {18}
+se::save_metric routeDesign.DRC.M1 {0}
+se::save_metric routeDesign.DRC.M2 {14}
+se::save_metric routeDesign.DRC.M3 {0}
+se::save_metric routeDesign.DRC.M4 {4}
+se::save_metric routeDesign.DRC.M5 {0}
+se::save_metric routeDesign.DRC.M6 {0}
+se::save_metric routeDesign.DRC.M7 {0}
+se::save_metric routeDesign.DRC.M8 {0}
+se::save_metric routeDesign.DRC.M9 {0}
+se::save_metric routeDesign.DRC.Pad {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200637 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40908 um}
+se::save_metric routeDesign.wirelength.M3 {52469 um}
+se::save_metric routeDesign.wirelength.M4 {53043 um}
+se::save_metric routeDesign.wirelength.M5 {31117 um}
+se::save_metric routeDesign.wirelength.M6 {19556 um}
+se::save_metric routeDesign.wirelength.M7 {3544 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105374}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36253}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44123}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15673}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6455}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2483}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {387}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.DRC.total {17}
+se::save_metric routeDesign.DRC.M1 {0}
+se::save_metric routeDesign.DRC.M2 {13}
+se::save_metric routeDesign.DRC.M3 {0}
+se::save_metric routeDesign.DRC.M4 {4}
+se::save_metric routeDesign.DRC.M5 {0}
+se::save_metric routeDesign.DRC.M6 {0}
+se::save_metric routeDesign.DRC.M7 {0}
+se::save_metric routeDesign.DRC.M8 {0}
+se::save_metric routeDesign.DRC.M9 {0}
+se::save_metric routeDesign.DRC.Pad {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.gcell.overCon.M2 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M3 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M4 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M5 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M6 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M7 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.total {(0.00%)}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200632 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40903 um}
+se::save_metric routeDesign.wirelength.M3 {52469 um}
+se::save_metric routeDesign.wirelength.M4 {53043 um}
+se::save_metric routeDesign.wirelength.M5 {31117 um}
+se::save_metric routeDesign.wirelength.M6 {19556 um}
+se::save_metric routeDesign.wirelength.M7 {3544 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105372}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36253}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44121}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15673}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6455}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2483}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {387}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200639 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40910 um}
+se::save_metric routeDesign.wirelength.M3 {52469 um}
+se::save_metric routeDesign.wirelength.M4 {53043 um}
+se::save_metric routeDesign.wirelength.M5 {31117 um}
+se::save_metric routeDesign.wirelength.M6 {19556 um}
+se::save_metric routeDesign.wirelength.M7 {3544 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105372}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36253}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44121}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15673}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6455}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2483}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {387}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200665 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40909 um}
+se::save_metric routeDesign.wirelength.M3 {52512 um}
+se::save_metric routeDesign.wirelength.M4 {53057 um}
+se::save_metric routeDesign.wirelength.M5 {31089 um}
+se::save_metric routeDesign.wirelength.M6 {19553 um}
+se::save_metric routeDesign.wirelength.M7 {3544 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105404}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36252}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44158}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15672}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6465}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2477}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {380}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.DRC.total {17}
+se::save_metric routeDesign.DRC.M1 {0}
+se::save_metric routeDesign.DRC.M2 {14}
+se::save_metric routeDesign.DRC.M3 {0}
+se::save_metric routeDesign.DRC.M4 {3}
+se::save_metric routeDesign.DRC.M5 {0}
+se::save_metric routeDesign.DRC.M6 {0}
+se::save_metric routeDesign.DRC.M7 {0}
+se::save_metric routeDesign.DRC.M8 {0}
+se::save_metric routeDesign.DRC.M9 {0}
+se::save_metric routeDesign.DRC.Pad {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200665 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40909 um}
+se::save_metric routeDesign.wirelength.M3 {52512 um}
+se::save_metric routeDesign.wirelength.M4 {53057 um}
+se::save_metric routeDesign.wirelength.M5 {31089 um}
+se::save_metric routeDesign.wirelength.M6 {19553 um}
+se::save_metric routeDesign.wirelength.M7 {3544 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105404}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36252}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44158}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15672}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6465}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2477}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {380}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.DRC.total {17}
+se::save_metric routeDesign.DRC.M1 {0}
+se::save_metric routeDesign.DRC.M2 {14}
+se::save_metric routeDesign.DRC.M3 {0}
+se::save_metric routeDesign.DRC.M4 {3}
+se::save_metric routeDesign.DRC.M5 {0}
+se::save_metric routeDesign.DRC.M6 {0}
+se::save_metric routeDesign.DRC.M7 {0}
+se::save_metric routeDesign.DRC.M8 {0}
+se::save_metric routeDesign.DRC.M9 {0}
+se::save_metric routeDesign.DRC.Pad {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.gcell.overCon.M2 {(0.02%)}
+se::save_metric routeDesign.gcell.overCon.M3 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M4 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M5 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M6 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M7 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.total {(0.00%)}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200667 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40912 um}
+se::save_metric routeDesign.wirelength.M3 {52512 um}
+se::save_metric routeDesign.wirelength.M4 {53057 um}
+se::save_metric routeDesign.wirelength.M5 {31089 um}
+se::save_metric routeDesign.wirelength.M6 {19553 um}
+se::save_metric routeDesign.wirelength.M7 {3544 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105404}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36252}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44158}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15672}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6465}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2477}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {380}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200670 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40915 um}
+se::save_metric routeDesign.wirelength.M3 {52512 um}
+se::save_metric routeDesign.wirelength.M4 {53057 um}
+se::save_metric routeDesign.wirelength.M5 {31089 um}
+se::save_metric routeDesign.wirelength.M6 {19553 um}
+se::save_metric routeDesign.wirelength.M7 {3544 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105404}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36252}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44158}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15672}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6465}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2477}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {380}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200634 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40903 um}
+se::save_metric routeDesign.wirelength.M3 {52489 um}
+se::save_metric routeDesign.wirelength.M4 {53023 um}
+se::save_metric routeDesign.wirelength.M5 {31074 um}
+se::save_metric routeDesign.wirelength.M6 {19587 um}
+se::save_metric routeDesign.wirelength.M7 {3557 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105378}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36250}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44125}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15670}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6459}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2497}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {377}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.DRC.total {15}
+se::save_metric routeDesign.DRC.M1 {0}
+se::save_metric routeDesign.DRC.M2 {12}
+se::save_metric routeDesign.DRC.M3 {0}
+se::save_metric routeDesign.DRC.M4 {3}
+se::save_metric routeDesign.DRC.M5 {0}
+se::save_metric routeDesign.DRC.M6 {0}
+se::save_metric routeDesign.DRC.M7 {0}
+se::save_metric routeDesign.DRC.M8 {0}
+se::save_metric routeDesign.DRC.M9 {0}
+se::save_metric routeDesign.DRC.Pad {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200634 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40903 um}
+se::save_metric routeDesign.wirelength.M3 {52489 um}
+se::save_metric routeDesign.wirelength.M4 {53023 um}
+se::save_metric routeDesign.wirelength.M5 {31074 um}
+se::save_metric routeDesign.wirelength.M6 {19587 um}
+se::save_metric routeDesign.wirelength.M7 {3557 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105378}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36250}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44125}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15670}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6459}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2497}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {377}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.DRC.total {15}
+se::save_metric routeDesign.DRC.M1 {0}
+se::save_metric routeDesign.DRC.M2 {12}
+se::save_metric routeDesign.DRC.M3 {0}
+se::save_metric routeDesign.DRC.M4 {3}
+se::save_metric routeDesign.DRC.M5 {0}
+se::save_metric routeDesign.DRC.M6 {0}
+se::save_metric routeDesign.DRC.M7 {0}
+se::save_metric routeDesign.DRC.M8 {0}
+se::save_metric routeDesign.DRC.M9 {0}
+se::save_metric routeDesign.DRC.Pad {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.gcell.overCon.M2 {(0.02%)}
+se::save_metric routeDesign.gcell.overCon.M3 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M4 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M5 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M6 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M7 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.total {(0.00%)}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200645 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40903 um}
+se::save_metric routeDesign.wirelength.M3 {52493 um}
+se::save_metric routeDesign.wirelength.M4 {53031 um}
+se::save_metric routeDesign.wirelength.M5 {31074 um}
+se::save_metric routeDesign.wirelength.M6 {19587 um}
+se::save_metric routeDesign.wirelength.M7 {3557 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105376}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36250}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44121}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15672}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6459}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2497}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {377}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200653 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40904 um}
+se::save_metric routeDesign.wirelength.M3 {52495 um}
+se::save_metric routeDesign.wirelength.M4 {53036 um}
+se::save_metric routeDesign.wirelength.M5 {31074 um}
+se::save_metric routeDesign.wirelength.M6 {19587 um}
+se::save_metric routeDesign.wirelength.M7 {3557 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105376}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36250}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44121}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15672}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6459}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2497}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {377}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200634 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40910 um}
+se::save_metric routeDesign.wirelength.M3 {52503 um}
+se::save_metric routeDesign.wirelength.M4 {53028 um}
+se::save_metric routeDesign.wirelength.M5 {31064 um}
+se::save_metric routeDesign.wirelength.M6 {19570 um}
+se::save_metric routeDesign.wirelength.M7 {3559 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105387}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36251}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44180}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15639}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6447}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2492}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {378}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.DRC.total {11}
+se::save_metric routeDesign.DRC.M1 {0}
+se::save_metric routeDesign.DRC.M2 {9}
+se::save_metric routeDesign.DRC.M3 {0}
+se::save_metric routeDesign.DRC.M4 {2}
+se::save_metric routeDesign.DRC.M5 {0}
+se::save_metric routeDesign.DRC.M6 {0}
+se::save_metric routeDesign.DRC.M7 {0}
+se::save_metric routeDesign.DRC.M8 {0}
+se::save_metric routeDesign.DRC.M9 {0}
+se::save_metric routeDesign.DRC.Pad {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200634 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40910 um}
+se::save_metric routeDesign.wirelength.M3 {52503 um}
+se::save_metric routeDesign.wirelength.M4 {53028 um}
+se::save_metric routeDesign.wirelength.M5 {31064 um}
+se::save_metric routeDesign.wirelength.M6 {19570 um}
+se::save_metric routeDesign.wirelength.M7 {3559 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105387}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36251}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44180}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15639}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6447}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2492}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {378}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.DRC.total {11}
+se::save_metric routeDesign.DRC.M1 {0}
+se::save_metric routeDesign.DRC.M2 {9}
+se::save_metric routeDesign.DRC.M3 {0}
+se::save_metric routeDesign.DRC.M4 {2}
+se::save_metric routeDesign.DRC.M5 {0}
+se::save_metric routeDesign.DRC.M6 {0}
+se::save_metric routeDesign.DRC.M7 {0}
+se::save_metric routeDesign.DRC.M8 {0}
+se::save_metric routeDesign.DRC.M9 {0}
+se::save_metric routeDesign.DRC.Pad {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.gcell.overCon.M2 {(0.02%)}
+se::save_metric routeDesign.gcell.overCon.M3 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M4 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M5 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M6 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M7 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.total {(0.00%)}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200633 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40910 um}
+se::save_metric routeDesign.wirelength.M3 {52503 um}
+se::save_metric routeDesign.wirelength.M4 {53028 um}
+se::save_metric routeDesign.wirelength.M5 {31064 um}
+se::save_metric routeDesign.wirelength.M6 {19570 um}
+se::save_metric routeDesign.wirelength.M7 {3559 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105387}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36251}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44180}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15639}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6447}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2492}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {378}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200634 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40910 um}
+se::save_metric routeDesign.wirelength.M3 {52503 um}
+se::save_metric routeDesign.wirelength.M4 {53028 um}
+se::save_metric routeDesign.wirelength.M5 {31064 um}
+se::save_metric routeDesign.wirelength.M6 {19570 um}
+se::save_metric routeDesign.wirelength.M7 {3559 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105387}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36251}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44180}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15639}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6447}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2492}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {378}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200659 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40910 um}
+se::save_metric routeDesign.wirelength.M3 {52509 um}
+se::save_metric routeDesign.wirelength.M4 {53052 um}
+se::save_metric routeDesign.wirelength.M5 {31060 um}
+se::save_metric routeDesign.wirelength.M6 {19565 um}
+se::save_metric routeDesign.wirelength.M7 {3563 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105396}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36254}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44163}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15649}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6460}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2493}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {377}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.DRC.total {14}
+se::save_metric routeDesign.DRC.M1 {0}
+se::save_metric routeDesign.DRC.M2 {10}
+se::save_metric routeDesign.DRC.M3 {0}
+se::save_metric routeDesign.DRC.M4 {4}
+se::save_metric routeDesign.DRC.M5 {0}
+se::save_metric routeDesign.DRC.M6 {0}
+se::save_metric routeDesign.DRC.M7 {0}
+se::save_metric routeDesign.DRC.M8 {0}
+se::save_metric routeDesign.DRC.M9 {0}
+se::save_metric routeDesign.DRC.Pad {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200659 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40910 um}
+se::save_metric routeDesign.wirelength.M3 {52509 um}
+se::save_metric routeDesign.wirelength.M4 {53052 um}
+se::save_metric routeDesign.wirelength.M5 {31060 um}
+se::save_metric routeDesign.wirelength.M6 {19565 um}
+se::save_metric routeDesign.wirelength.M7 {3563 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105396}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36254}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44163}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15649}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6460}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2493}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {377}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.DRC.total {13}
+se::save_metric routeDesign.DRC.M1 {0}
+se::save_metric routeDesign.DRC.M2 {9}
+se::save_metric routeDesign.DRC.M3 {0}
+se::save_metric routeDesign.DRC.M4 {4}
+se::save_metric routeDesign.DRC.M5 {0}
+se::save_metric routeDesign.DRC.M6 {0}
+se::save_metric routeDesign.DRC.M7 {0}
+se::save_metric routeDesign.DRC.M8 {0}
+se::save_metric routeDesign.DRC.M9 {0}
+se::save_metric routeDesign.DRC.Pad {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.gcell.overCon.M2 {(0.03%)}
+se::save_metric routeDesign.gcell.overCon.M3 {(0.03%)}
+se::save_metric routeDesign.gcell.overCon.M4 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M5 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M6 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M7 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.total {(0.01%)}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200693 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40914 um}
+se::save_metric routeDesign.wirelength.M3 {52513 um}
+se::save_metric routeDesign.wirelength.M4 {53060 um}
+se::save_metric routeDesign.wirelength.M5 {31079 um}
+se::save_metric routeDesign.wirelength.M6 {19565 um}
+se::save_metric routeDesign.wirelength.M7 {3563 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105416}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36254}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44167}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15657}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6468}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2493}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {377}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200700 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40916 um}
+se::save_metric routeDesign.wirelength.M3 {52515 um}
+se::save_metric routeDesign.wirelength.M4 {53060 um}
+se::save_metric routeDesign.wirelength.M5 {31081 um}
+se::save_metric routeDesign.wirelength.M6 {19565 um}
+se::save_metric routeDesign.wirelength.M7 {3563 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105416}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36254}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44167}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15657}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6468}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2493}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {377}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200684 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40917 um}
+se::save_metric routeDesign.wirelength.M3 {52521 um}
+se::save_metric routeDesign.wirelength.M4 {53044 um}
+se::save_metric routeDesign.wirelength.M5 {31045 um}
+se::save_metric routeDesign.wirelength.M6 {19590 um}
+se::save_metric routeDesign.wirelength.M7 {3567 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105431}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36250}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44168}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15663}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6468}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2504}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {378}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.DRC.total {18}
+se::save_metric routeDesign.DRC.M1 {0}
+se::save_metric routeDesign.DRC.M2 {14}
+se::save_metric routeDesign.DRC.M3 {2}
+se::save_metric routeDesign.DRC.M4 {2}
+se::save_metric routeDesign.DRC.M5 {0}
+se::save_metric routeDesign.DRC.M6 {0}
+se::save_metric routeDesign.DRC.M7 {0}
+se::save_metric routeDesign.DRC.M8 {0}
+se::save_metric routeDesign.DRC.M9 {0}
+se::save_metric routeDesign.DRC.Pad {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200684 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40917 um}
+se::save_metric routeDesign.wirelength.M3 {52521 um}
+se::save_metric routeDesign.wirelength.M4 {53044 um}
+se::save_metric routeDesign.wirelength.M5 {31045 um}
+se::save_metric routeDesign.wirelength.M6 {19590 um}
+se::save_metric routeDesign.wirelength.M7 {3567 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105431}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36250}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44168}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15663}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6468}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2504}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {378}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.DRC.total {17}
+se::save_metric routeDesign.DRC.M1 {0}
+se::save_metric routeDesign.DRC.M2 {13}
+se::save_metric routeDesign.DRC.M3 {2}
+se::save_metric routeDesign.DRC.M4 {2}
+se::save_metric routeDesign.DRC.M5 {0}
+se::save_metric routeDesign.DRC.M6 {0}
+se::save_metric routeDesign.DRC.M7 {0}
+se::save_metric routeDesign.DRC.M8 {0}
+se::save_metric routeDesign.DRC.M9 {0}
+se::save_metric routeDesign.DRC.Pad {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.gcell.overCon.M2 {(0.02%)}
+se::save_metric routeDesign.gcell.overCon.M3 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M4 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M5 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M6 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M7 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.total {(0.00%)}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200683 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40917 um}
+se::save_metric routeDesign.wirelength.M3 {52521 um}
+se::save_metric routeDesign.wirelength.M4 {53042 um}
+se::save_metric routeDesign.wirelength.M5 {31045 um}
+se::save_metric routeDesign.wirelength.M6 {19590 um}
+se::save_metric routeDesign.wirelength.M7 {3567 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105431}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36250}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44168}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15663}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6468}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2504}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {378}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200689 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40923 um}
+se::save_metric routeDesign.wirelength.M3 {52521 um}
+se::save_metric routeDesign.wirelength.M4 {53043 um}
+se::save_metric routeDesign.wirelength.M5 {31045 um}
+se::save_metric routeDesign.wirelength.M6 {19590 um}
+se::save_metric routeDesign.wirelength.M7 {3567 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105431}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36250}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44168}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15663}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6468}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2504}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {378}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200671 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40912 um}
+se::save_metric routeDesign.wirelength.M3 {52502 um}
+se::save_metric routeDesign.wirelength.M4 {53057 um}
+se::save_metric routeDesign.wirelength.M5 {31050 um}
+se::save_metric routeDesign.wirelength.M6 {19569 um}
+se::save_metric routeDesign.wirelength.M7 {3581 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105433}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36249}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44168}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15668}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6471}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2494}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {383}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.DRC.total {9}
+se::save_metric routeDesign.DRC.M1 {0}
+se::save_metric routeDesign.DRC.M2 {8}
+se::save_metric routeDesign.DRC.M3 {0}
+se::save_metric routeDesign.DRC.M4 {1}
+se::save_metric routeDesign.DRC.M5 {0}
+se::save_metric routeDesign.DRC.M6 {0}
+se::save_metric routeDesign.DRC.M7 {0}
+se::save_metric routeDesign.DRC.M8 {0}
+se::save_metric routeDesign.DRC.M9 {0}
+se::save_metric routeDesign.DRC.Pad {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200671 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40912 um}
+se::save_metric routeDesign.wirelength.M3 {52502 um}
+se::save_metric routeDesign.wirelength.M4 {53057 um}
+se::save_metric routeDesign.wirelength.M5 {31050 um}
+se::save_metric routeDesign.wirelength.M6 {19569 um}
+se::save_metric routeDesign.wirelength.M7 {3581 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105433}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36249}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44168}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15668}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6471}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2494}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {383}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.DRC.total {9}
+se::save_metric routeDesign.DRC.M1 {0}
+se::save_metric routeDesign.DRC.M2 {8}
+se::save_metric routeDesign.DRC.M3 {0}
+se::save_metric routeDesign.DRC.M4 {1}
+se::save_metric routeDesign.DRC.M5 {0}
+se::save_metric routeDesign.DRC.M6 {0}
+se::save_metric routeDesign.DRC.M7 {0}
+se::save_metric routeDesign.DRC.M8 {0}
+se::save_metric routeDesign.DRC.M9 {0}
+se::save_metric routeDesign.DRC.Pad {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.gcell.overCon.M2 {(0.03%)}
+se::save_metric routeDesign.gcell.overCon.M3 {(0.02%)}
+se::save_metric routeDesign.gcell.overCon.M4 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M5 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M6 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M7 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.total {(0.01%)}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200695 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40916 um}
+se::save_metric routeDesign.wirelength.M3 {52502 um}
+se::save_metric routeDesign.wirelength.M4 {53082 um}
+se::save_metric routeDesign.wirelength.M5 {31049 um}
+se::save_metric routeDesign.wirelength.M6 {19565 um}
+se::save_metric routeDesign.wirelength.M7 {3581 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105422}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36249}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44154}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15672}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6470}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2494}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {383}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200720 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40928 um}
+se::save_metric routeDesign.wirelength.M3 {52508 um}
+se::save_metric routeDesign.wirelength.M4 {53088 um}
+se::save_metric routeDesign.wirelength.M5 {31049 um}
+se::save_metric routeDesign.wirelength.M6 {19566 um}
+se::save_metric routeDesign.wirelength.M7 {3581 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105422}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36249}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44154}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15672}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6470}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2494}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {383}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200716 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40912 um}
+se::save_metric routeDesign.wirelength.M3 {52549 um}
+se::save_metric routeDesign.wirelength.M4 {53068 um}
+se::save_metric routeDesign.wirelength.M5 {31036 um}
+se::save_metric routeDesign.wirelength.M6 {19577 um}
+se::save_metric routeDesign.wirelength.M7 {3574 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105460}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36250}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44164}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15676}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6482}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2507}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {381}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.DRC.total {10}
+se::save_metric routeDesign.DRC.M1 {0}
+se::save_metric routeDesign.DRC.M2 {8}
+se::save_metric routeDesign.DRC.M3 {0}
+se::save_metric routeDesign.DRC.M4 {2}
+se::save_metric routeDesign.DRC.M5 {0}
+se::save_metric routeDesign.DRC.M6 {0}
+se::save_metric routeDesign.DRC.M7 {0}
+se::save_metric routeDesign.DRC.M8 {0}
+se::save_metric routeDesign.DRC.M9 {0}
+se::save_metric routeDesign.DRC.Pad {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200716 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40912 um}
+se::save_metric routeDesign.wirelength.M3 {52549 um}
+se::save_metric routeDesign.wirelength.M4 {53068 um}
+se::save_metric routeDesign.wirelength.M5 {31036 um}
+se::save_metric routeDesign.wirelength.M6 {19577 um}
+se::save_metric routeDesign.wirelength.M7 {3574 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105460}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36250}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44164}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15676}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6482}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2507}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {381}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.DRC.total {10}
+se::save_metric routeDesign.DRC.M1 {0}
+se::save_metric routeDesign.DRC.M2 {8}
+se::save_metric routeDesign.DRC.M3 {0}
+se::save_metric routeDesign.DRC.M4 {2}
+se::save_metric routeDesign.DRC.M5 {0}
+se::save_metric routeDesign.DRC.M6 {0}
+se::save_metric routeDesign.DRC.M7 {0}
+se::save_metric routeDesign.DRC.M8 {0}
+se::save_metric routeDesign.DRC.M9 {0}
+se::save_metric routeDesign.DRC.Pad {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.gcell.overCon.M2 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M3 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M4 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M5 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M6 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M7 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.total {(0.00%)}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200713 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40910 um}
+se::save_metric routeDesign.wirelength.M3 {52548 um}
+se::save_metric routeDesign.wirelength.M4 {53068 um}
+se::save_metric routeDesign.wirelength.M5 {31036 um}
+se::save_metric routeDesign.wirelength.M6 {19577 um}
+se::save_metric routeDesign.wirelength.M7 {3574 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105458}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36250}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44162}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15676}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6482}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2507}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {381}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200714 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40911 um}
+se::save_metric routeDesign.wirelength.M3 {52548 um}
+se::save_metric routeDesign.wirelength.M4 {53068 um}
+se::save_metric routeDesign.wirelength.M5 {31036 um}
+se::save_metric routeDesign.wirelength.M6 {19577 um}
+se::save_metric routeDesign.wirelength.M7 {3574 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105458}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36250}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44162}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15676}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6482}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2507}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {381}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200700 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40927 um}
+se::save_metric routeDesign.wirelength.M3 {52557 um}
+se::save_metric routeDesign.wirelength.M4 {53044 um}
+se::save_metric routeDesign.wirelength.M5 {31010 um}
+se::save_metric routeDesign.wirelength.M6 {19582 um}
+se::save_metric routeDesign.wirelength.M7 {3580 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105465}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36251}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44176}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15682}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6463}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2508}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {385}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.DRC.total {8}
+se::save_metric routeDesign.DRC.M1 {0}
+se::save_metric routeDesign.DRC.M2 {8}
+se::save_metric routeDesign.DRC.M3 {0}
+se::save_metric routeDesign.DRC.M4 {0}
+se::save_metric routeDesign.DRC.M5 {0}
+se::save_metric routeDesign.DRC.M6 {0}
+se::save_metric routeDesign.DRC.M7 {0}
+se::save_metric routeDesign.DRC.M8 {0}
+se::save_metric routeDesign.DRC.M9 {0}
+se::save_metric routeDesign.DRC.Pad {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200700 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40927 um}
+se::save_metric routeDesign.wirelength.M3 {52557 um}
+se::save_metric routeDesign.wirelength.M4 {53044 um}
+se::save_metric routeDesign.wirelength.M5 {31010 um}
+se::save_metric routeDesign.wirelength.M6 {19582 um}
+se::save_metric routeDesign.wirelength.M7 {3580 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105465}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36251}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44176}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15682}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6463}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2508}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {385}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.DRC.total {8}
+se::save_metric routeDesign.DRC.M1 {0}
+se::save_metric routeDesign.DRC.M2 {8}
+se::save_metric routeDesign.DRC.M3 {0}
+se::save_metric routeDesign.DRC.M4 {0}
+se::save_metric routeDesign.DRC.M5 {0}
+se::save_metric routeDesign.DRC.M6 {0}
+se::save_metric routeDesign.DRC.M7 {0}
+se::save_metric routeDesign.DRC.M8 {0}
+se::save_metric routeDesign.DRC.M9 {0}
+se::save_metric routeDesign.DRC.Pad {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.gcell.overCon.M2 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M3 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M4 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M5 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M6 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M7 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.total {(0.00%)}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200704 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40935 um}
+se::save_metric routeDesign.wirelength.M3 {52554 um}
+se::save_metric routeDesign.wirelength.M4 {53044 um}
+se::save_metric routeDesign.wirelength.M5 {31010 um}
+se::save_metric routeDesign.wirelength.M6 {19582 um}
+se::save_metric routeDesign.wirelength.M7 {3580 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105453}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36249}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44168}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15680}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6463}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2508}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {385}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200714 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40945 um}
+se::save_metric routeDesign.wirelength.M3 {52554 um}
+se::save_metric routeDesign.wirelength.M4 {53044 um}
+se::save_metric routeDesign.wirelength.M5 {31010 um}
+se::save_metric routeDesign.wirelength.M6 {19582 um}
+se::save_metric routeDesign.wirelength.M7 {3580 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105453}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36249}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44168}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15680}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6463}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2508}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {385}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200725 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40913 um}
+se::save_metric routeDesign.wirelength.M3 {52534 um}
+se::save_metric routeDesign.wirelength.M4 {53051 um}
+se::save_metric routeDesign.wirelength.M5 {31029 um}
+se::save_metric routeDesign.wirelength.M6 {19588 um}
+se::save_metric routeDesign.wirelength.M7 {3609 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105528}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36250}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44184}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15678}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6498}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2525}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {393}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.DRC.total {7}
+se::save_metric routeDesign.DRC.M1 {0}
+se::save_metric routeDesign.DRC.M2 {7}
+se::save_metric routeDesign.DRC.M3 {0}
+se::save_metric routeDesign.DRC.M4 {0}
+se::save_metric routeDesign.DRC.M5 {0}
+se::save_metric routeDesign.DRC.M6 {0}
+se::save_metric routeDesign.DRC.M7 {0}
+se::save_metric routeDesign.DRC.M8 {0}
+se::save_metric routeDesign.DRC.M9 {0}
+se::save_metric routeDesign.DRC.Pad {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200725 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40913 um}
+se::save_metric routeDesign.wirelength.M3 {52534 um}
+se::save_metric routeDesign.wirelength.M4 {53051 um}
+se::save_metric routeDesign.wirelength.M5 {31029 um}
+se::save_metric routeDesign.wirelength.M6 {19588 um}
+se::save_metric routeDesign.wirelength.M7 {3609 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105528}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36250}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44184}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15678}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6498}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2525}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {393}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.DRC.total {7}
+se::save_metric routeDesign.DRC.M1 {0}
+se::save_metric routeDesign.DRC.M2 {7}
+se::save_metric routeDesign.DRC.M3 {0}
+se::save_metric routeDesign.DRC.M4 {0}
+se::save_metric routeDesign.DRC.M5 {0}
+se::save_metric routeDesign.DRC.M6 {0}
+se::save_metric routeDesign.DRC.M7 {0}
+se::save_metric routeDesign.DRC.M8 {0}
+se::save_metric routeDesign.DRC.M9 {0}
+se::save_metric routeDesign.DRC.Pad {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.gcell.overCon.M2 {(0.09%)}
+se::save_metric routeDesign.gcell.overCon.M3 {(0.02%)}
+se::save_metric routeDesign.gcell.overCon.M4 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M5 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M6 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M7 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.total {(0.02%)}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200749 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40924 um}
+se::save_metric routeDesign.wirelength.M3 {52546 um}
+se::save_metric routeDesign.wirelength.M4 {53058 um}
+se::save_metric routeDesign.wirelength.M5 {31028 um}
+se::save_metric routeDesign.wirelength.M6 {19584 um}
+se::save_metric routeDesign.wirelength.M7 {3609 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105514}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36251}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44176}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15675}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6496}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2523}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {393}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200782 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40935 um}
+se::save_metric routeDesign.wirelength.M3 {52562 um}
+se::save_metric routeDesign.wirelength.M4 {53061 um}
+se::save_metric routeDesign.wirelength.M5 {31031 um}
+se::save_metric routeDesign.wirelength.M6 {19584 um}
+se::save_metric routeDesign.wirelength.M7 {3609 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105514}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36251}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44176}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15675}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6496}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2523}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {393}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200750 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40932 um}
+se::save_metric routeDesign.wirelength.M3 {52559 um}
+se::save_metric routeDesign.wirelength.M4 {53047 um}
+se::save_metric routeDesign.wirelength.M5 {31002 um}
+se::save_metric routeDesign.wirelength.M6 {19593 um}
+se::save_metric routeDesign.wirelength.M7 {3617 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105506}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36249}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44175}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15680}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6481}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2526}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {395}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.DRC.total {6}
+se::save_metric routeDesign.DRC.M1 {0}
+se::save_metric routeDesign.DRC.M2 {5}
+se::save_metric routeDesign.DRC.M3 {0}
+se::save_metric routeDesign.DRC.M4 {1}
+se::save_metric routeDesign.DRC.M5 {0}
+se::save_metric routeDesign.DRC.M6 {0}
+se::save_metric routeDesign.DRC.M7 {0}
+se::save_metric routeDesign.DRC.M8 {0}
+se::save_metric routeDesign.DRC.M9 {0}
+se::save_metric routeDesign.DRC.Pad {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200750 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40932 um}
+se::save_metric routeDesign.wirelength.M3 {52559 um}
+se::save_metric routeDesign.wirelength.M4 {53047 um}
+se::save_metric routeDesign.wirelength.M5 {31002 um}
+se::save_metric routeDesign.wirelength.M6 {19593 um}
+se::save_metric routeDesign.wirelength.M7 {3617 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105506}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36249}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44175}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15680}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6481}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2526}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {395}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.DRC.total {6}
+se::save_metric routeDesign.DRC.M1 {0}
+se::save_metric routeDesign.DRC.M2 {5}
+se::save_metric routeDesign.DRC.M3 {0}
+se::save_metric routeDesign.DRC.M4 {1}
+se::save_metric routeDesign.DRC.M5 {0}
+se::save_metric routeDesign.DRC.M6 {0}
+se::save_metric routeDesign.DRC.M7 {0}
+se::save_metric routeDesign.DRC.M8 {0}
+se::save_metric routeDesign.DRC.M9 {0}
+se::save_metric routeDesign.DRC.Pad {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.gcell.overCon.M2 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M3 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M4 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M5 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M6 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M7 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.total {(0.00%)}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200759 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40941 um}
+se::save_metric routeDesign.wirelength.M3 {52559 um}
+se::save_metric routeDesign.wirelength.M4 {53047 um}
+se::save_metric routeDesign.wirelength.M5 {31002 um}
+se::save_metric routeDesign.wirelength.M6 {19593 um}
+se::save_metric routeDesign.wirelength.M7 {3617 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105506}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36249}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44175}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15680}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6481}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2526}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {395}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200769 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40951 um}
+se::save_metric routeDesign.wirelength.M3 {52559 um}
+se::save_metric routeDesign.wirelength.M4 {53047 um}
+se::save_metric routeDesign.wirelength.M5 {31002 um}
+se::save_metric routeDesign.wirelength.M6 {19593 um}
+se::save_metric routeDesign.wirelength.M7 {3617 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105506}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36249}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44175}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15680}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6481}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2526}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {395}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200751 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40930 um}
+se::save_metric routeDesign.wirelength.M3 {52568 um}
+se::save_metric routeDesign.wirelength.M4 {53041 um}
+se::save_metric routeDesign.wirelength.M5 {31020 um}
+se::save_metric routeDesign.wirelength.M6 {19585 um}
+se::save_metric routeDesign.wirelength.M7 {3607 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105494}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36249}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44179}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15676}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6478}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2523}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {389}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.DRC.total {13}
+se::save_metric routeDesign.DRC.M1 {0}
+se::save_metric routeDesign.DRC.M2 {10}
+se::save_metric routeDesign.DRC.M3 {0}
+se::save_metric routeDesign.DRC.M4 {3}
+se::save_metric routeDesign.DRC.M5 {0}
+se::save_metric routeDesign.DRC.M6 {0}
+se::save_metric routeDesign.DRC.M7 {0}
+se::save_metric routeDesign.DRC.M8 {0}
+se::save_metric routeDesign.DRC.M9 {0}
+se::save_metric routeDesign.DRC.Pad {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200751 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40930 um}
+se::save_metric routeDesign.wirelength.M3 {52568 um}
+se::save_metric routeDesign.wirelength.M4 {53041 um}
+se::save_metric routeDesign.wirelength.M5 {31020 um}
+se::save_metric routeDesign.wirelength.M6 {19585 um}
+se::save_metric routeDesign.wirelength.M7 {3607 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105494}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36249}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44179}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15676}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6478}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2523}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {389}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.DRC.total {13}
+se::save_metric routeDesign.DRC.M1 {0}
+se::save_metric routeDesign.DRC.M2 {10}
+se::save_metric routeDesign.DRC.M3 {0}
+se::save_metric routeDesign.DRC.M4 {3}
+se::save_metric routeDesign.DRC.M5 {0}
+se::save_metric routeDesign.DRC.M6 {0}
+se::save_metric routeDesign.DRC.M7 {0}
+se::save_metric routeDesign.DRC.M8 {0}
+se::save_metric routeDesign.DRC.M9 {0}
+se::save_metric routeDesign.DRC.Pad {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.gcell.overCon.M2 {(0.02%)}
+se::save_metric routeDesign.gcell.overCon.M3 {(0.02%)}
+se::save_metric routeDesign.gcell.overCon.M4 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M5 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M6 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M7 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.total {(0.01%)}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200755 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40934 um}
+se::save_metric routeDesign.wirelength.M3 {52567 um}
+se::save_metric routeDesign.wirelength.M4 {53043 um}
+se::save_metric routeDesign.wirelength.M5 {31020 um}
+se::save_metric routeDesign.wirelength.M6 {19585 um}
+se::save_metric routeDesign.wirelength.M7 {3607 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105491}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36249}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44178}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15676}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6477}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2522}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {389}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200765 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40936 um}
+se::save_metric routeDesign.wirelength.M3 {52573 um}
+se::save_metric routeDesign.wirelength.M4 {53045 um}
+se::save_metric routeDesign.wirelength.M5 {31020 um}
+se::save_metric routeDesign.wirelength.M6 {19585 um}
+se::save_metric routeDesign.wirelength.M7 {3607 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105491}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36249}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44178}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15676}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6477}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2522}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {389}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200759 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40926 um}
+se::save_metric routeDesign.wirelength.M3 {52565 um}
+se::save_metric routeDesign.wirelength.M4 {53049 um}
+se::save_metric routeDesign.wirelength.M5 {31023 um}
+se::save_metric routeDesign.wirelength.M6 {19589 um}
+se::save_metric routeDesign.wirelength.M7 {3607 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105508}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36251}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44177}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15687}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6477}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2527}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {389}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.DRC.total {6}
+se::save_metric routeDesign.DRC.M1 {0}
+se::save_metric routeDesign.DRC.M2 {5}
+se::save_metric routeDesign.DRC.M3 {0}
+se::save_metric routeDesign.DRC.M4 {1}
+se::save_metric routeDesign.DRC.M5 {0}
+se::save_metric routeDesign.DRC.M6 {0}
+se::save_metric routeDesign.DRC.M7 {0}
+se::save_metric routeDesign.DRC.M8 {0}
+se::save_metric routeDesign.DRC.M9 {0}
+se::save_metric routeDesign.DRC.Pad {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200759 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40926 um}
+se::save_metric routeDesign.wirelength.M3 {52565 um}
+se::save_metric routeDesign.wirelength.M4 {53049 um}
+se::save_metric routeDesign.wirelength.M5 {31023 um}
+se::save_metric routeDesign.wirelength.M6 {19589 um}
+se::save_metric routeDesign.wirelength.M7 {3607 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105508}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36251}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44177}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15687}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6477}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2527}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {389}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.DRC.total {6}
+se::save_metric routeDesign.DRC.M1 {0}
+se::save_metric routeDesign.DRC.M2 {5}
+se::save_metric routeDesign.DRC.M3 {0}
+se::save_metric routeDesign.DRC.M4 {1}
+se::save_metric routeDesign.DRC.M5 {0}
+se::save_metric routeDesign.DRC.M6 {0}
+se::save_metric routeDesign.DRC.M7 {0}
+se::save_metric routeDesign.DRC.M8 {0}
+se::save_metric routeDesign.DRC.M9 {0}
+se::save_metric routeDesign.DRC.Pad {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.gcell.overCon.M2 {(0.02%)}
+se::save_metric routeDesign.gcell.overCon.M3 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M4 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M5 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M6 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M7 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.total {(0.00%)}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200787 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40931 um}
+se::save_metric routeDesign.wirelength.M3 {52569 um}
+se::save_metric routeDesign.wirelength.M4 {53068 um}
+se::save_metric routeDesign.wirelength.M5 {31023 um}
+se::save_metric routeDesign.wirelength.M6 {19589 um}
+se::save_metric routeDesign.wirelength.M7 {3607 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105515}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36249}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44179}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15694}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6477}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2527}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {389}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200794 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40934 um}
+se::save_metric routeDesign.wirelength.M3 {52572 um}
+se::save_metric routeDesign.wirelength.M4 {53069 um}
+se::save_metric routeDesign.wirelength.M5 {31023 um}
+se::save_metric routeDesign.wirelength.M6 {19589 um}
+se::save_metric routeDesign.wirelength.M7 {3607 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105515}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36249}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44179}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15694}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6477}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2527}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {389}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200779 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40928 um}
+se::save_metric routeDesign.wirelength.M3 {52559 um}
+se::save_metric routeDesign.wirelength.M4 {53053 um}
+se::save_metric routeDesign.wirelength.M5 {31040 um}
+se::save_metric routeDesign.wirelength.M6 {19593 um}
+se::save_metric routeDesign.wirelength.M7 {3607 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105522}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36249}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44186}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15686}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6481}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2531}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {389}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.DRC.total {6}
+se::save_metric routeDesign.DRC.M1 {0}
+se::save_metric routeDesign.DRC.M2 {6}
+se::save_metric routeDesign.DRC.M3 {0}
+se::save_metric routeDesign.DRC.M4 {0}
+se::save_metric routeDesign.DRC.M5 {0}
+se::save_metric routeDesign.DRC.M6 {0}
+se::save_metric routeDesign.DRC.M7 {0}
+se::save_metric routeDesign.DRC.M8 {0}
+se::save_metric routeDesign.DRC.M9 {0}
+se::save_metric routeDesign.DRC.Pad {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200779 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40928 um}
+se::save_metric routeDesign.wirelength.M3 {52559 um}
+se::save_metric routeDesign.wirelength.M4 {53053 um}
+se::save_metric routeDesign.wirelength.M5 {31040 um}
+se::save_metric routeDesign.wirelength.M6 {19593 um}
+se::save_metric routeDesign.wirelength.M7 {3607 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105522}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36249}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44186}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15686}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6481}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2531}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {389}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.DRC.total {6}
+se::save_metric routeDesign.DRC.M1 {0}
+se::save_metric routeDesign.DRC.M2 {6}
+se::save_metric routeDesign.DRC.M3 {0}
+se::save_metric routeDesign.DRC.M4 {0}
+se::save_metric routeDesign.DRC.M5 {0}
+se::save_metric routeDesign.DRC.M6 {0}
+se::save_metric routeDesign.DRC.M7 {0}
+se::save_metric routeDesign.DRC.M8 {0}
+se::save_metric routeDesign.DRC.M9 {0}
+se::save_metric routeDesign.DRC.Pad {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.gcell.overCon.M2 {(0.02%)}
+se::save_metric routeDesign.gcell.overCon.M3 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M4 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M5 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M6 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M7 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.total {(0.00%)}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200788 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40934 um}
+se::save_metric routeDesign.wirelength.M3 {52559 um}
+se::save_metric routeDesign.wirelength.M4 {53056 um}
+se::save_metric routeDesign.wirelength.M5 {31040 um}
+se::save_metric routeDesign.wirelength.M6 {19593 um}
+se::save_metric routeDesign.wirelength.M7 {3607 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105522}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36249}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44184}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15688}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6481}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2531}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {389}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200799 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40943 um}
+se::save_metric routeDesign.wirelength.M3 {52560 um}
+se::save_metric routeDesign.wirelength.M4 {53057 um}
+se::save_metric routeDesign.wirelength.M5 {31040 um}
+se::save_metric routeDesign.wirelength.M6 {19593 um}
+se::save_metric routeDesign.wirelength.M7 {3607 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105522}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36249}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44184}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15688}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6481}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2531}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {389}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200799 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40939 um}
+se::save_metric routeDesign.wirelength.M3 {52559 um}
+se::save_metric routeDesign.wirelength.M4 {53068 um}
+se::save_metric routeDesign.wirelength.M5 {31035 um}
+se::save_metric routeDesign.wirelength.M6 {19592 um}
+se::save_metric routeDesign.wirelength.M7 {3607 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105523}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36248}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44185}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15693}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6481}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2527}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {389}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.DRC.total {5}
+se::save_metric routeDesign.DRC.M1 {0}
+se::save_metric routeDesign.DRC.M2 {5}
+se::save_metric routeDesign.DRC.M3 {0}
+se::save_metric routeDesign.DRC.M4 {0}
+se::save_metric routeDesign.DRC.M5 {0}
+se::save_metric routeDesign.DRC.M6 {0}
+se::save_metric routeDesign.DRC.M7 {0}
+se::save_metric routeDesign.DRC.M8 {0}
+se::save_metric routeDesign.DRC.M9 {0}
+se::save_metric routeDesign.DRC.Pad {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200799 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40939 um}
+se::save_metric routeDesign.wirelength.M3 {52559 um}
+se::save_metric routeDesign.wirelength.M4 {53068 um}
+se::save_metric routeDesign.wirelength.M5 {31035 um}
+se::save_metric routeDesign.wirelength.M6 {19592 um}
+se::save_metric routeDesign.wirelength.M7 {3607 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105523}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36248}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44185}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15693}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6481}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2527}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {389}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.DRC.total {5}
+se::save_metric routeDesign.DRC.M1 {0}
+se::save_metric routeDesign.DRC.M2 {5}
+se::save_metric routeDesign.DRC.M3 {0}
+se::save_metric routeDesign.DRC.M4 {0}
+se::save_metric routeDesign.DRC.M5 {0}
+se::save_metric routeDesign.DRC.M6 {0}
+se::save_metric routeDesign.DRC.M7 {0}
+se::save_metric routeDesign.DRC.M8 {0}
+se::save_metric routeDesign.DRC.M9 {0}
+se::save_metric routeDesign.DRC.Pad {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.gcell.overCon.M2 {(0.03%)}
+se::save_metric routeDesign.gcell.overCon.M3 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M4 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M5 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M6 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M7 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.total {(0.01%)}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200838 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40950 um}
+se::save_metric routeDesign.wirelength.M3 {52556 um}
+se::save_metric routeDesign.wirelength.M4 {53099 um}
+se::save_metric routeDesign.wirelength.M5 {31035 um}
+se::save_metric routeDesign.wirelength.M6 {19592 um}
+se::save_metric routeDesign.wirelength.M7 {3607 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105526}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36247}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44184}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15698}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6481}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2527}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {389}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200858 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40957 um}
+se::save_metric routeDesign.wirelength.M3 {52560 um}
+se::save_metric routeDesign.wirelength.M4 {53107 um}
+se::save_metric routeDesign.wirelength.M5 {31035 um}
+se::save_metric routeDesign.wirelength.M6 {19592 um}
+se::save_metric routeDesign.wirelength.M7 {3607 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105526}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36247}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44184}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15698}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6481}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2527}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {389}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200829 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40939 um}
+se::save_metric routeDesign.wirelength.M3 {52561 um}
+se::save_metric routeDesign.wirelength.M4 {53097 um}
+se::save_metric routeDesign.wirelength.M5 {31036 um}
+se::save_metric routeDesign.wirelength.M6 {19590 um}
+se::save_metric routeDesign.wirelength.M7 {3607 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105526}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36248}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44176}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15702}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6485}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2526}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {389}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.DRC.total {1}
+se::save_metric routeDesign.DRC.M1 {0}
+se::save_metric routeDesign.DRC.M2 {1}
+se::save_metric routeDesign.DRC.M3 {0}
+se::save_metric routeDesign.DRC.M4 {0}
+se::save_metric routeDesign.DRC.M5 {0}
+se::save_metric routeDesign.DRC.M6 {0}
+se::save_metric routeDesign.DRC.M7 {0}
+se::save_metric routeDesign.DRC.M8 {0}
+se::save_metric routeDesign.DRC.M9 {0}
+se::save_metric routeDesign.DRC.Pad {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200829 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40939 um}
+se::save_metric routeDesign.wirelength.M3 {52561 um}
+se::save_metric routeDesign.wirelength.M4 {53097 um}
+se::save_metric routeDesign.wirelength.M5 {31036 um}
+se::save_metric routeDesign.wirelength.M6 {19590 um}
+se::save_metric routeDesign.wirelength.M7 {3607 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105526}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36248}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44176}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15702}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6485}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2526}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {389}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.DRC.total {1}
+se::save_metric routeDesign.DRC.M1 {0}
+se::save_metric routeDesign.DRC.M2 {1}
+se::save_metric routeDesign.DRC.M3 {0}
+se::save_metric routeDesign.DRC.M4 {0}
+se::save_metric routeDesign.DRC.M5 {0}
+se::save_metric routeDesign.DRC.M6 {0}
+se::save_metric routeDesign.DRC.M7 {0}
+se::save_metric routeDesign.DRC.M8 {0}
+se::save_metric routeDesign.DRC.M9 {0}
+se::save_metric routeDesign.DRC.Pad {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.gcell.overCon.M2 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M3 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M4 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M5 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M6 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.M7 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.total {(0.00%)}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200824 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40931 um}
+se::save_metric routeDesign.wirelength.M3 {52564 um}
+se::save_metric routeDesign.wirelength.M4 {53097 um}
+se::save_metric routeDesign.wirelength.M5 {31036 um}
+se::save_metric routeDesign.wirelength.M6 {19590 um}
+se::save_metric routeDesign.wirelength.M7 {3607 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105523}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36249}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44172}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15702}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6485}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2526}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {389}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200830 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40931 um}
+se::save_metric routeDesign.wirelength.M3 {52570 um}
+se::save_metric routeDesign.wirelength.M4 {53097 um}
+se::save_metric routeDesign.wirelength.M5 {31036 um}
+se::save_metric routeDesign.wirelength.M6 {19590 um}
+se::save_metric routeDesign.wirelength.M7 {3607 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105523}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36249}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44172}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15702}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6485}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2526}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {389}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200825 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40934 um}
+se::save_metric routeDesign.wirelength.M3 {52562 um}
+se::save_metric routeDesign.wirelength.M4 {53097 um}
+se::save_metric routeDesign.wirelength.M5 {31036 um}
+se::save_metric routeDesign.wirelength.M6 {19590 um}
+se::save_metric routeDesign.wirelength.M7 {3607 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105523}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36247}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44174}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15702}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6485}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2526}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {389}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.DRC.total {0}
+se::save_metric routeDesign.DRC.M1 {0}
+se::save_metric routeDesign.DRC.M2 {0}
+se::save_metric routeDesign.DRC.M3 {0}
+se::save_metric routeDesign.DRC.M4 {0}
+se::save_metric routeDesign.DRC.M5 {0}
+se::save_metric routeDesign.DRC.M6 {0}
+se::save_metric routeDesign.DRC.M7 {0}
+se::save_metric routeDesign.DRC.M8 {0}
+se::save_metric routeDesign.DRC.M9 {0}
+se::save_metric routeDesign.DRC.Pad {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {200825 um}
+se::save_metric routeDesign.wirelength.M1 {0 um}
+se::save_metric routeDesign.wirelength.M2 {40934 um}
+se::save_metric routeDesign.wirelength.M3 {52562 um}
+se::save_metric routeDesign.wirelength.M4 {53097 um}
+se::save_metric routeDesign.wirelength.M5 {31036 um}
+se::save_metric routeDesign.wirelength.M6 {19590 um}
+se::save_metric routeDesign.wirelength.M7 {3607 um}
+se::save_metric routeDesign.wirelength.M8 {0 um}
+se::save_metric routeDesign.wirelength.M9 {0 um}
+se::save_metric routeDesign.wirelength.Pad {0 um}
+se::save_metric routeDesign.via.total {105523}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.V1 {36247}
+se::save_metric routeDesign.multicutvia.V1 {0}
+se::save_metric routeDesign.via.V2 {44174}
+se::save_metric routeDesign.multicutvia.V2 {0}
+se::save_metric routeDesign.via.V3 {15702}
+se::save_metric routeDesign.multicutvia.V3 {0}
+se::save_metric routeDesign.via.V4 {6485}
+se::save_metric routeDesign.multicutvia.V4 {0}
+se::save_metric routeDesign.via.V5 {2526}
+se::save_metric routeDesign.multicutvia.V5 {0}
+se::save_metric routeDesign.via.V6 {389}
+se::save_metric routeDesign.multicutvia.V6 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.DRC.total {0}
+se::save_metric routeDesign.DRC.M1 {0}
+se::save_metric routeDesign.DRC.M2 {0}
+se::save_metric routeDesign.DRC.M3 {0}
+se::save_metric routeDesign.DRC.M4 {0}
+se::save_metric routeDesign.DRC.M5 {0}
+se::save_metric routeDesign.DRC.M6 {0}
+se::save_metric routeDesign.DRC.M7 {0}
+se::save_metric routeDesign.DRC.M8 {0}
+se::save_metric routeDesign.DRC.M9 {0}
+se::save_metric routeDesign.DRC.Pad {0}
+se::end_metric routeDesign {}
