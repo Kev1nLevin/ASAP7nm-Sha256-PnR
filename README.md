@@ -4,6 +4,12 @@ This repository provides a complete **RTL-to-GDSII digital design flow** for the
 
 ---
 
+# Snapshot
+
+https://github.com/Kev1nLevin/ASAP7nm-Sha256-PnR/blob/main/reports_simulations/Screenshot%20from%202025-09-26%2017-11-22.png
+
+---
+
 ## 📂 Repository Structure
 
 ```
